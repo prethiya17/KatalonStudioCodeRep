@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA_Profile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pirqa.flex.com/login'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gssprpra'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/P8tNwhUmLp/rJtunF72BA=='</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Upload File Path</description>
+      <initValue>'C:\\Users\\gssprpra\\OneDrive - Flex\\Desktop\\Automation\\PRICE_TYPE_TEST_COMMODITY_MANAGEMENT_108875-AGILENT-_20170831-1_Updated 2702.xlsx'</initValue>
+      <name>FileLocation</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
