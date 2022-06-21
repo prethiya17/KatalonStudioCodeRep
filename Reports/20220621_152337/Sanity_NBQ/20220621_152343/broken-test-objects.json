@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LoginPage_It-Right/Three line icon",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220621_152337/Sanity_NBQ/20220621_152343/Object Repository/Page_LoginPage_It-Right/Three line icon_position.png"
+    }
+  ]
+}

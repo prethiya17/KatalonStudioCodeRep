@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Current View</name>
+   <tag></tag>
+   <elementGuidId>3e614d4e-ae00-46ab-8ec8-e8c8acc32e45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='export-report']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#export-report</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eef0b5ed-9c60-4dbf-9f82-03933b12aa02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>export-report</value>
+      <webElementGuid>37c6c4c6-e34f-4584-b9ae-3006eaeb9149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Current View</value>
+      <webElementGuid>9b7c04f4-4b07-4834-8c0e-e630a7e6c5d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;export-report&quot;)</value>
+      <webElementGuid>4a1505d4-9808-4af6-bd84-125a25bea2ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='export-report']</value>
+      <webElementGuid>d848abe4-8e2d-477c-b9a6-d86ef409c604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='filter-form']/fieldset/div[9]/div/div/ul/li/a</value>
+      <webElementGuid>52117923-46af-460e-b56c-8cde8fdf6084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Current View')]</value>
+      <webElementGuid>aed005ab-3d32-45a7-9b0f-365ae47578d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[8]/preceding::a[1]</value>
+      <webElementGuid>6b434493-a5f0-42c4-8bad-518de6038e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created with Highcharts 8.2.2'])[1]/preceding::a[2]</value>
+      <webElementGuid>a1e64db4-8027-48ee-b8c7-4c2211206360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Current View']/parent::*</value>
+      <webElementGuid>6e0684c7-1228-469d-b790-eca23bfa6060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/ul/li/a</value>
+      <webElementGuid>deee2fea-d425-4ae8-a443-a1c57646954e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'export-report' and (text() = 'Current View' or . = 'Current View')]</value>
+      <webElementGuid>9f1fc604-999d-49b3-a04d-538bba47c616</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

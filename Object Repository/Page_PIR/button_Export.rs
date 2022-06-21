@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[27]</value>
+         <value>//button[@id='export-dropdown-btn']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.btn-group.mr-1 > button.btn.btn-primary.dropdown-toggle</value>
+         <value>#export-dropdown-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>9c5092f2-591e-403a-861f-7fbb46a02ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>203479c7-79b0-41a4-ab5e-32e78422fe49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary dropdown-toggle</value>
+      <value>btn btn-primary dropdown-toggle gcm-progress-btn</value>
+      <webElementGuid>82d50a83-0839-4569-a140-caac3defd05b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>dropdown</value>
+      <webElementGuid>ea8ef8de-de54-40fe-bd07-f4575e3b1bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>8a12f2dc-cb85-4442-92c9-e56c21e0e1a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,15 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>906808b6-28da-43c4-9f3f-e4a2f14f6400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>export-dropdown-btn</value>
+      <webElementGuid>f7252b81-ebda-4f93-80a8-026b1bff29a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,8 +78,75 @@
       <name>text</name>
       <type>Main</type>
       <value>
+									Export
+									</value>
+      <webElementGuid>580ca2a8-afb3-4b55-a514-c3d165640e3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;export-dropdown-btn&quot;)</value>
+      <webElementGuid>183c2f33-18ba-455f-820f-b689483c3811</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fadd993b-bdfd-4ebd-a126-bde960e7c623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cf22833a-21bb-4ce7-ab93-a3a6d5a6681f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary dropdown-toggle</value>
+      <webElementGuid>acdbc220-f59b-4557-8ea2-62172ec7c639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>48b0a584-9b66-402c-a71d-47959dc0e349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ce50eaaf-d2c4-4497-a5a6-5edb80bb609b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>36ed0f54-d947-411c-8b08-4dfc1a25ca0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
 						  Export  
 					</value>
+      <webElementGuid>8c125d4b-f2cf-4c66-9ee6-9fd4d923c612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,34 +154,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;param-form&quot;)/div[@class=&quot;form-group d-flex flex-wrap control-buttons mt-2&quot;]/div[@class=&quot;d-flex mb-2 flex-wrap&quot;]/div[@class=&quot;btn-group mr-1&quot;]/button[@class=&quot;btn btn-primary dropdown-toggle&quot;]</value>
+      <webElementGuid>a47b2611-546c-4536-a955-7ffee526412a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[27]</value>
+      <value>//button[@id='export-dropdown-btn']</value>
+      <webElementGuid>b702e785-8606-44ef-ab27-880e3245886a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='param-form']/div/div[2]/div/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by CPN'])[1]/following::button[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[126]/preceding::button[1]</value>
+      <value>//form[@id='filter-form']/fieldset/div[9]/div/div/button</value>
+      <webElementGuid>55db320e-3143-4b9c-a612-28702097cc03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +178,75 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current View'])[1]/preceding::button[1]</value>
+      <webElementGuid>41610ac7-b6af-4256-b19f-e9bbdc27e718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[8]/preceding::button[1]</value>
+      <webElementGuid>c78638c1-c6db-42d1-9907-314408490bb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Export']/parent::*</value>
+      <webElementGuid>3ea0e7a9-6a33-4706-9b43-3fb16e120df8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/button</value>
+      <webElementGuid>e6fdaff0-7efc-4359-95d7-b38ba1b1ba8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'export-dropdown-btn' and (text() = '
+									Export
+									' or . = '
+									Export
+									')]</value>
+      <webElementGuid>91a51efd-db51-4be6-bb0a-75315cf557ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[27]</value>
+      <webElementGuid>c27a7d3f-ad25-4e81-b43e-bc190c76063b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='param-form']/div/div[2]/div/button</value>
+      <webElementGuid>4afd1a9d-9f44-47b1-891d-d008992f3842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by CPN'])[1]/following::button[3]</value>
+      <webElementGuid>2c7c7db0-68ac-4548-9d4b-a496f7aad5ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[126]/preceding::button[1]</value>
+      <webElementGuid>f2d51157-1592-421f-ac87-5fcec606e753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +254,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/div/button</value>
+      <webElementGuid>2e48d919-4216-4236-98ca-576438bb5dc8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

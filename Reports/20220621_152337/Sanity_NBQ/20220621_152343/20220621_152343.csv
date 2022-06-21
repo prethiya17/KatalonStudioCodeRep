@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_NBQ,Chrome 102.0.5005.62,,,2022-06-21 15:25:42,2022-06-21 15:29:18,3m - 36.151s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/Enter MPN,Chrome 102.0.5005.62,,,2022-06-21 15:25:43,2022-06-21 15:26:04,21.239s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:25:43,2022-06-21 15:25:48,4.468s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:25:48,2022-06-21 15:25:48,0.242s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:25:48,2022-06-21 15:25:54,5.575s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:25:54,2022-06-21 15:25:56,2.223s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:25:56,2022-06-21 15:25:57,1.073s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:25:57,2022-06-21 15:26:02,5.480s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:02,2022-06-21 15:26:03,0.541s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/span_New Business Quoting""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:03,2022-06-21 15:26:04,0.914s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/NBQ Manual Load,Chrome 102.0.5005.62,,,2022-06-21 15:26:04,2022-06-21 15:26:39,35.038s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:26:05,2022-06-21 15:26:08,2.831s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:26:08,2022-06-21 15:26:13,4.893s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:26:13,2022-06-21 15:26:14,1.499s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:26:14,2022-06-21 15:26:15,0.491s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:15,2022-06-21 15:26:38,23.598s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:26:38,2022-06-21 15:26:38,0.025s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:38,2022-06-21 15:26:39,0.627s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/QW Restore project,Chrome 102.0.5005.62,,,2022-06-21 15:26:39,2022-06-21 15:27:18,38.923s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:26:40,2022-06-21 15:26:42,2.769s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:26:42,2022-06-21 15:26:46,4.169s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:26:46,2022-06-21 15:26:48,1.431s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:26:48,2022-06-21 15:26:49,0.598s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:49,2022-06-21 15:26:59,10.070s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:26:59,2022-06-21 15:26:59,0.185s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:26:59,2022-06-21 15:26:59,0.497s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 0)",Chrome 102.0.5005.62,,,2022-06-21 15:26:59,2022-06-21 15:27:00,0.765s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:00,2022-06-21 15:27:01,1.419s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:01,2022-06-21 15:27:18,16.274s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/QW Project Upload,Chrome 102.0.5005.62,,,2022-06-21 15:27:18,2022-06-21 15:27:36,18.482s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:27:18,2022-06-21 15:27:21,2.226s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:27:21,2022-06-21 15:27:25,4.464s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:27:25,2022-06-21 15:27:27,1.402s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:27:27,2022-06-21 15:27:27,0.566s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:27,2022-06-21 15:27:29,1.793s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:27:29,2022-06-21 15:27:29,0.154s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:29,2022-06-21 15:27:36,7.150s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/QW Export Check,Chrome 102.0.5005.62,,,2022-06-21 15:27:36,2022-06-21 15:28:00,23.946s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:27:37,2022-06-21 15:27:39,2.105s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:27:39,2022-06-21 15:27:43,3.956s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:27:43,2022-06-21 15:27:45,1.531s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:27:45,2022-06-21 15:27:45,0.547s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:45,2022-06-21 15:27:48,2.840s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:27:48,2022-06-21 15:27:48,0.179s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:27:48,2022-06-21 15:28:00,11.947s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/NBQ/QW Restore project,Chrome 102.0.5005.62,,,2022-06-21 15:28:00,2022-06-21 15:29:18,1m - 17.883s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 15:28:00,2022-06-21 15:28:03,2.394s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 15:28:03,2022-06-21 15:28:07,4.014s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 15:28:07,2022-06-21 15:28:08,1.427s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 15:28:08,2022-06-21 15:28:09,0.515s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 15:28:09,2022-06-21 15:28:11,2.227s,PASSED
+maximizeWindow(),Chrome 102.0.5005.62,,,2022-06-21 15:28:11,2022-06-21 15:28:11,0.166s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 102.0.5005.62,,,2022-06-21 15:28:11,2022-06-21 15:28:44,32.656s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 0)",Chrome 102.0.5005.62,,,2022-06-21 15:28:44,2022-06-21 15:29:18,34.457s,FAILED
