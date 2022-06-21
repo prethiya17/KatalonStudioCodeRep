@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_QIT,Chrome 102.0.5005.62,,,2022-06-21 11:32:35,2022-06-21 11:33:18,43.459s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/QIT/QIT Project Load,Chrome 102.0.5005.62,,,2022-06-21 11:32:35,2022-06-21 11:33:18,42.569s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 11:32:37,2022-06-21 11:32:43,6.548s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 11:32:43,2022-06-21 11:32:46,3.172s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 11:32:46,2022-06-21 11:32:48,1.174s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 11:32:48,2022-06-21 11:32:48,0.632s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 11:32:48,2022-06-21 11:32:51,2.602s,PASSED
+"click(findTestObject(""Page_PIR/Page_It-Right Platform/Three line-icon""))",Chrome 102.0.5005.62,,,2022-06-21 11:32:51,2022-06-21 11:32:51,0.513s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_QIT/span_Quote Issue Tracker""))",Chrome 102.0.5005.62,,,2022-06-21 11:32:51,2022-06-21 11:32:55,3.439s,PASSED
+"click(findTestObject(""Page_Price It Right/button_Retrieve QW Project""))",Chrome 102.0.5005.62,,,2022-06-21 11:32:55,2022-06-21 11:32:55,0.656s,PASSED
+"setText(findTestObject(""Object Repository/Page_Price It Right/input_Project_hide-input-line""), ""corrected"")",Chrome 102.0.5005.62,,,2022-06-21 11:32:55,2022-06-21 11:33:06,10.539s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/td_TEST_PIR_CORRECTED MPN TEST""))",Chrome 102.0.5005.62,,,2022-06-21 11:33:06,2022-06-21 11:33:07,0.555s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Select""))",Chrome 102.0.5005.62,,,2022-06-21 11:33:07,2022-06-21 11:33:07,0.489s,PASSED
+delay(10),Chrome 102.0.5005.62,,,2022-06-21 11:33:07,2022-06-21 11:33:17,10.106s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Price It Right/button_Export""))",Chrome 102.0.5005.62,,,2022-06-21 11:33:17,2022-06-21 11:33:18,0.857s,FAILED

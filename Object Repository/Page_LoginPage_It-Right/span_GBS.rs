@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_GBS</name>
+   <tag></tag>
+   <elementGuidId>b1bbe9c0-81d2-4b70-b4c1-1f19e98e7882</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='sidebar']/div[2]/ul/li[4]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li[title=&quot;GBS&quot;] > a.nav-link > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35fc14fe-229d-4d28-b3e0-ddbeb1b55fc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GBS</value>
+      <webElementGuid>bce33244-f442-4765-bfe2-9ec835a726b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;group-nav&quot;]/ul[@class=&quot;nav flex-column nav-items&quot;]/li[4]/a[@class=&quot;nav-link&quot;]/span[1]</value>
+      <webElementGuid>9a56cea5-b47f-449d-b86a-258ab866e6ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='sidebar']/div[2]/ul/li[4]/a/span</value>
+      <webElementGuid>5957f37f-cd61-439e-bb9a-e151a58ff4f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier Finder'])[1]/following::span[1]</value>
+      <webElementGuid>f1703077-8064-4e9c-aab5-4c62108fc062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametric Search'])[1]/following::span[2]</value>
+      <webElementGuid>ce7e8971-a59a-4199-8810-0e9a33f0dd14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GBS Project Request'])[1]/preceding::span[1]</value>
+      <webElementGuid>f8858b88-bc02-4d0d-a6bd-bb6d86e9dfe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Design for Supply Chain'])[1]/preceding::span[2]</value>
+      <webElementGuid>5ccd0f92-309c-4dfd-bc7e-d35827cbb850</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GBS']/parent::*</value>
+      <webElementGuid>92e3641d-2abc-4831-95d7-d3396c7e2d7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[4]/a/span</value>
+      <webElementGuid>33e32bb8-8236-4150-96bc-40416d4b67ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

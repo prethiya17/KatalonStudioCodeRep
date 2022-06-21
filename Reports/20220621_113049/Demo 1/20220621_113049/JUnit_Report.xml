@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo 1" time="61.401" tests="1" failures="1" errors="0">
+   <testsuite name="Demo 1" tests="1" failures="1" errors="0" time="61.401" skipped="0" timestamp="2022-06-21 11:30:58" hostname="gssprpra - GSSM6818.asia.ad.flextronics.com" id="Test Suites/Demo 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep\\Reports\\20220621_113049\\Demo 1\\20220621_113049"/>
+         <property name="logFiles" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep\\Reports\\20220621_113049\\Demo 1\\20220621_113049\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep\\Reports\\20220621_113049\\Demo 1\\20220621_113049\\1655791319419.png"/>
+         <property name="hostName" value="gssprpra - GSSM6818.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.62"/>
+         <property name="hostAddress" value="10.195.91.93"/>
+         <property name="sessionId" value="f088a3dff5a45ba96292310f5a9e053a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/All Test Cases/NBQ/QW Project Upload" time="60.783" classname="Test Cases/All Test Cases/NBQ/QW Project Upload" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All Test Cases/NBQ/QW Project Upload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-21 11:30:59 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Project Upload: Test Cases/All Test Cases/NBQ/QW Project Upload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-21 11:31:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-21 11:31:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-21 11:31:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-21 11:31:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-21 11:31:06 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-21 11:31:11 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-21 11:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-21 11:31:12 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-21 11:31:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-21 11:31:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-21 11:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-21 11:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-21 11:31:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-21 11:31:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-21 11:31:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/Three line icon")): Object: 'Object Repository/Page_It-Right Platform/Three line icon' is clicked on
+
+2022-06-21 11:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/Three line icon' is clicked on
+
+2022-06-21 11:31:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_It-Right Platform/span_New Business Quoting"), 2): Scroll to object 'Object Repository/Page_It-Right Platform/span_New Business Quoting' successfully
+
+2022-06-21 11:31:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_It-Right Platform/span_New Business Quoting' successfully
+
+2022-06-21 11:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/span_New Business Quoting")): Object: 'Object Repository/Page_It-Right Platform/span_New Business Quoting' is clicked on
+
+2022-06-21 11:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_New Business Quoting' is clicked on
+
+2022-06-21 11:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/button_QWProject")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject' is clicked on
+
+2022-06-21 11:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject' is clicked on
+
+2022-06-21 11:31:23 - [TEST_STEP][FAILED] - setText(findTestObject("Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj"), "three"): Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653471432567.run(Script1653471432567.groovy:40)
+	... 13 more
+)
+
+2022-06-21 11:31:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='search-qw-proj']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-21 11:31:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'. Try using Self-healing.
+
+2022-06-21 11:31:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='search-qw-proj']'.
+
+2022-06-21 11:31:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='qw-proj-search-container']/input'.
+
+2022-06-21 11:31:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/input'.
+
+2022-06-21 11:31:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='search-qw-proj']'.
+
+2022-06-21 11:31:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='qw-proj-search-container']/input'.
+
+2022-06-21 11:31:57 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/input'.
+
+2022-06-21 11:31:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'search' and @id = 'search-qw-proj' and @placeholder = 'Search for a QW Project...' and @title = 'Type in a SFDC or Project Name.']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-21 11:31:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #search-qw-proj'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-21 11:31:59 - [MESSAGE][FAILED] - Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653471432567.run(Script1653471432567.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep\\Reports\\20220621_113049\\Demo 1\\20220621_113049\\1655791319419.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-21 11:30:59 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Project Upload: Test Cases/All Test Cases/NBQ/QW Project Upload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-21 11:30:58 - [TEST_SUITE][FAILED] - Demo 1: Test Cases/All Test Cases/NBQ/QW Project Upload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-06-21 11:30:58 - [TEST_SUITE][FAILED] - Demo 1: Test Cases/All Test Cases/NBQ/QW Project Upload FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'three' of object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at QW Project Upload.run(QW Project Upload:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655791249232.run(TempTestSuite1655791249232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj' located by '//input[@id='search-qw-proj']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

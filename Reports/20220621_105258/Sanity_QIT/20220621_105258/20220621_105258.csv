@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_QIT,Chrome 102.0.5005.62,,,2022-06-21 10:53:06,2022-06-21 10:53:35,28.618s,FAILED
+,,,,,,,
+Test Cases/All Test Cases/QIT/QIT Project Load,Chrome 102.0.5005.62,,,2022-06-21 10:53:07,2022-06-21 10:53:35,27.984s,FAILED
+"openBrowser("""")",Chrome 102.0.5005.62,,,2022-06-21 10:53:08,2022-06-21 10:53:14,5.568s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.62,,,2022-06-21 10:53:14,2022-06-21 10:53:21,7.199s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 102.0.5005.62,,,2022-06-21 10:53:21,2022-06-21 10:53:22,1.067s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 102.0.5005.62,,,2022-06-21 10:53:22,2022-06-21 10:53:23,0.702s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 102.0.5005.62,,,2022-06-21 10:53:23,2022-06-21 10:53:26,3.694s,PASSED
+"click(findTestObject(""Page_PIR/Page_It-Right Platform/Three line-icon""))",Chrome 102.0.5005.62,,,2022-06-21 10:53:26,2022-06-21 10:53:27,0.539s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_QIT/span_Quote Issue Tracker""))",Chrome 102.0.5005.62,,,2022-06-21 10:53:27,2022-06-21 10:53:28,0.865s,PASSED
+"click(findTestObject(""Page_Price It Right/button_Retrieve QW Project""))",Chrome 102.0.5005.62,,,2022-06-21 10:53:28,2022-06-21 10:53:35,7.360s,FAILED
