@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[17]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220525_105256/Sanity_GBS/20220525_105256/Object Repository/Page_DIR/i_Project-folder-open_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027OK\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220525_105256/Sanity_GBS/20220525_105256/Object Repository/Page_DIR/button_OK_neighbor.png"
+    }
+  ]
+}

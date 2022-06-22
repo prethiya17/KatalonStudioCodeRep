@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Sign in</name>
    <tag></tag>
-   <elementGuidId>532f95c7-b595-40a8-b75a-326c04027b6f</elementGuidId>
+   <elementGuidId>e7c0d8cd-aa89-4cb4-99cf-5e8bd7e6cd82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8d7e0521-898e-4255-bea7-3f1f5cca18ee</webElementGuid>
+      <webElementGuid>9646bbcb-b054-4132-801f-c672fca50ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-lg btn-primary btn-block</value>
-      <webElementGuid>30dec1c0-e738-4ded-9de5-622a400f82cf</webElementGuid>
+      <webElementGuid>83bd4c49-bbdc-4327-aed3-a7fd0236c38d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>d5664ce7-e72f-47b5-89df-aeb4ad583b84</webElementGuid>
+      <webElementGuid>6c230c26-9623-4f4a-ae37-b2d4a97f47fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pir-login</value>
-      <webElementGuid>6c158221-c95d-4118-a810-4b760bbf2032</webElementGuid>
+      <webElementGuid>362e5cb7-ab85-483b-a29e-9cf77bb6d10a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign in</value>
-      <webElementGuid>94047b4e-2fd7-4d2f-b4fe-e7d066fe0369</webElementGuid>
+      <webElementGuid>04f48850-91ed-4425-b5fb-6156020d6033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,55 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pir-login&quot;)</value>
-      <webElementGuid>9527a5ee-9558-42ab-8985-4fa305eddbff</webElementGuid>
+      <webElementGuid>5cf848bd-37e9-4843-b229-247fd29ba391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6723c764-83c9-4ee7-993a-c0e25d01aa9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-primary btn-block</value>
+      <webElementGuid>0643b3fa-38a1-4982-94dd-15604c7f363a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>8b285d5a-a9dd-473b-83ef-0d2dd0085385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pir-login</value>
+      <webElementGuid>41acb912-11dc-49d7-a58d-e0eab737c7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>bb47067c-65c2-400e-8e4c-e64cac7ec234</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pir-login&quot;)</value>
+      <webElementGuid>ba864a3f-ef71-4100-a0b7-a16c87eff5e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='pir-login']</value>
-      <webElementGuid>3a0be002-2fef-4121-823a-4d42913d3d53</webElementGuid>
+      <webElementGuid>4924e35b-0525-43cc-80c3-2390c1df29d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='platform'])[1]/following::button[1]</value>
-      <webElementGuid>2679c843-e5d4-4b8d-9650-48032de6f1d6</webElementGuid>
+      <webElementGuid>23ea37ad-0b45-463a-bc7f-53ba026049a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='It-Right'])[1]/following::button[1]</value>
-      <webElementGuid>9c5df778-bb29-4879-8a7d-d13c4af8df8f</webElementGuid>
+      <webElementGuid>a5f82126-f40d-47dc-aa58-ae5e1be30d8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::button[1]</value>
-      <webElementGuid>27626014-ea2f-4b02-99eb-7e6e22ac2098</webElementGuid>
+      <webElementGuid>f0a15a69-a3da-4de1-9706-40086d1d78e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
-      <webElementGuid>db8ad362-e0db-4321-891c-0e87840cd3e7</webElementGuid>
+      <webElementGuid>bcf2895a-7007-43e9-b4d2-7f9e917544ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +158,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>15b442ff-310e-4923-a7a9-91857084ff0c</webElementGuid>
+      <webElementGuid>32194105-6f95-4850-a31e-b0234f832425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +166,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @id = 'pir-login' and (text() = 'Sign in' or . = 'Sign in')]</value>
-      <webElementGuid>a5445fc4-0251-4cc5-b06a-ffb910f8add2</webElementGuid>
+      <webElementGuid>9cc39c73-29ce-42d8-9db1-ef5181e06de5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

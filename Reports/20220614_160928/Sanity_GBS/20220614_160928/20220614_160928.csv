@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_GBS,Chrome 102.0.5005.115,,,2022-06-14 16:09:50,2022-06-14 16:10:25,35.323s,PASSED
+,,,,,,,
+Test Cases/Sanity/Supplier Finder/Check Data and Export,Chrome 102.0.5005.115,,,2022-06-14 16:09:51,2022-06-14 16:10:25,34.637s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-14 16:09:51,2022-06-14 16:09:55,3.953s,PASSED
+maximizeWindow(),Chrome 102.0.5005.115,,,2022-06-14 16:09:55,2022-06-14 16:09:56,0.218s,PASSED
+navigateToUrl(URL),Chrome 102.0.5005.115,,,2022-06-14 16:09:56,2022-06-14 16:10:03,7.018s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 102.0.5005.115,,,2022-06-14 16:10:03,2022-06-14 16:10:04,1.743s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 102.0.5005.115,,,2022-06-14 16:10:04,2022-06-14 16:10:05,0.820s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:05,2022-06-14 16:10:09,3.583s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:09,2022-06-14 16:10:09,0.701s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 1)",Chrome 102.0.5005.115,,,2022-06-14 16:10:09,2022-06-14 16:10:10,0.698s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_Supplier Finder""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:10,2022-06-14 16:10:15,5.109s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR/div_Supplier Finder""), 2)",Chrome 102.0.5005.115,,,2022-06-14 16:10:15,2022-06-14 16:10:19,3.320s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR/div_datatable_header""), 1)",Chrome 102.0.5005.115,,,2022-06-14 16:10:19,2022-06-14 16:10:19,0.665s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_DIR/td_SupplierName""), ""5D INDUSTRIA"")",Chrome 102.0.5005.115,,,2022-06-14 16:10:19,2022-06-14 16:10:20,0.658s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR/button_Export""), 1)",Chrome 102.0.5005.115,,,2022-06-14 16:10:20,2022-06-14 16:10:20,0.552s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR/button_Export""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:20,2022-06-14 16:10:21,1.052s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR/div_Supplier Finder""), 2)",Chrome 102.0.5005.115,,,2022-06-14 16:10:21,2022-06-14 16:10:22,0.764s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:22,2022-06-14 16:10:23,0.813s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR/a_Logout""))",Chrome 102.0.5005.115,,,2022-06-14 16:10:23,2022-06-14 16:10:24,1.014s,PASSED
+closeBrowser(),Chrome 102.0.5005.115,,,2022-06-14 16:10:24,2022-06-14 16:10:25,1.094s,PASSED

@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity_GBS" time="811.302" tests="9" failures="0" errors="0">
+   <testsuite name="Sanity_GBS" tests="9" failures="0" errors="0" time="811.302" skipped="0" timestamp="2022-06-15 17:42:28" hostname="gsstjaya - GSSM0803.asia.ad.flextronics.com" id="Test Suites/Sanity_GBS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220615_174217\\Sanity_GBS\\20220615_174217"/>
+         <property name="logFiles" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220615_174217\\Sanity_GBS\\20220615_174217\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsstjaya - GSSM0803.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.195.90.103"/>
+         <property name="sessionId" value="1acce437f35f408f94560404509ea212"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/GBS/Create AF Project" time="195.901" classname="Test Cases/Sanity/GBS/Create AF Project" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:42:28 - [TEST_CASE][PASSED] - Test Cases/Sanity/GBS/Create AF Project: Test Cases/Sanity/GBS/Create AF Project
+
+2022-06-15 17:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:42:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:42:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:42:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:42:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:42:35 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:42:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:42:36 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:42:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:42:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:42:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:42:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_It-Right Platform_GBS/span_GBS"), 0): Scroll to object 'Object Repository/Page_It-Right Platform_GBS/span_GBS' successfully
+
+2022-06-15 17:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:42:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_It-Right Platform_GBS/span_GBS' successfully
+
+2022-06-15 17:42:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_It-Right Platform_GBS/span_GBS"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clickable
+
+2022-06-15 17:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clickable
+
+2022-06-15 17:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:42:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:42:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:42:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:42:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Flex_Organization")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:42:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/select_Organization"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:42:59 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:42:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:43:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:43:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project' is present
+
+2022-06-15 17:43:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project' is present
+
+2022-06-15 17:43:01 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project"), GBSAF_File): null
+
+2022-06-15 17:43:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_Choose Analysis Type"), 3): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Choose Analysis Type' is present
+
+2022-06-15 17:43:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Choose Analysis Type' is present
+
+2022-06-15 17:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_OK")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_OK' is clicked on
+
+2022-06-15 17:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_OK' is clicked on
+
+2022-06-15 17:43:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:43:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:43:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_Create Project"), 3): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Create Project' is present
+
+2022-06-15 17:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Create Project' is present
+
+2022-06-15 17:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/input__dueDate")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/input__dueDate' is clicked on
+
+2022-06-15 17:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/input__dueDate' is clicked on
+
+2022-06-15 17:43:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:43:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:43:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Month")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Month' is clicked on
+
+2022-06-15 17:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Month' is clicked on
+
+2022-06-15 17:43:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/span_MonthDecember"), 1, STOP_ON_FAILURE): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/span_MonthDecember' successfully
+
+2022-06-15 17:43:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/span_MonthDecember' successfully
+
+2022-06-15 17:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_MonthDecember")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_MonthDecember' is clicked on
+
+2022-06-15 17:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_MonthDecember' is clicked on
+
+2022-06-15 17:43:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:43:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:43:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Year")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Year' is clicked on
+
+2022-06-15 17:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Year' is clicked on
+
+2022-06-15 17:43:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:43:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:43:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/span_Year2024"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/span_Year2024' successfully
+
+2022-06-15 17:43:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/span_Year2024' successfully
+
+2022-06-15 17:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Year2024")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Year2024' is clicked on
+
+2022-06-15 17:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Year2024' is clicked on
+
+2022-06-15 17:43:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:43:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/div_Date31")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Date31' is clicked on
+
+2022-06-15 17:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Date31' is clicked on
+
+2022-06-15 17:43:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:43:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:43:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DIR_GBS/GBS Project/textarea_Comments_comments"), "Test"): Text 'Test' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments'
+
+2022-06-15 17:43:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='req-comments-text-area']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:43:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments'. Try using Self-healing.
+
+2022-06-15 17:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//textarea[@id='req-comments-text-area']'.
+
+2022-06-15 17:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//form[@id='req-project-form']/div[7]/div/textarea'.
+
+2022-06-15 17:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//textarea'.
+
+2022-06-15 17:43:48 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Sumathy/Katalon Projects_Scripts/PIR_DIR2/Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments_position.png
+
+2022-06-15 17:43:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments' was broken. Propose an alternative one: '//textarea'.
+
+2022-06-15 17:44:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='req-comments-text-area']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:44:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments'. Try using Self-healing.
+
+2022-06-15 17:44:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments' was broken. Propose an alternative one: '//textarea'.
+
+2022-06-15 17:44:19 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments'
+
+2022-06-15 17:44:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/button_Create"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' successfully
+
+2022-06-15 17:44:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='create-request']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:44:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/button_Create'. Try using Self-healing.
+
+2022-06-15 17:44:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='create-request']'.
+
+2022-06-15 17:44:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='create-modal-dialog']/div/div[3]/button'.
+
+2022-06-15 17:44:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::button[1]'.
+
+2022-06-15 17:44:52 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::button[1]'.
+
+2022-06-15 17:44:52 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Sumathy/Katalon Projects_Scripts/PIR_DIR2/Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/button_Create_neighbor.png
+
+2022-06-15 17:44:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::button[1]'.
+
+2022-06-15 17:44:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' successfully
+
+2022-06-15 17:44:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Create")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' is clicked on
+
+2022-06-15 17:45:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='create-request']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:45:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/button_Create'. Try using Self-healing.
+
+2022-06-15 17:45:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::button[1]'.
+
+2022-06-15 17:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Create' is clicked on
+
+2022-06-15 17:45:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:45:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:45:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_Project success msg"), 3): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Project success msg' is present
+
+2022-06-15 17:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Project success msg' is present
+
+2022-06-15 17:45:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_Project success msg"), 3): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Project success msg' is present
+
+2022-06-15 17:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_Project success msg' is present
+
+2022-06-15 17:45:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-15 17:45:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-15 17:45:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/td_FileName_Dummy"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/td_FileName_Dummy' is present
+
+2022-06-15 17:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/td_FileName_Dummy' is present
+
+2022-06-15 17:45:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_DIR_GBS/GBS Project/td_FileName_Dummy"), "text", GBSAF_FileName, 3): Object 'Object Repository/Page_DIR_GBS/GBS Project/td_FileName_Dummy' has attribute 'text' with value 'File for Dummy MPN'
+
+2022-06-15 17:45:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/td_FileName_Dummy' has attribute 'text' with value 'File for Dummy MPN'
+
+2022-06-15 17:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/GBS/AF_Review_Verify" time="112.282" classname="Test Cases/Sanity/GBS/AF_Review_Verify" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:45:44 - [TEST_CASE][PASSED] - Test Cases/Sanity/GBS/AF_Review_Verify: Test Cases/Sanity/GBS/AF_Review_Verify
+
+2022-06-15 17:45:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:45:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:45:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:45:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:45:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:45:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:45:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:45:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:45:49 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:45:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:45:50 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:45:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:45:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:45:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:45:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:46:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:46:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Flex_Organization")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:46:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/select_Organization"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:46:11 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:46:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:46:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:46:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:46:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:46:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:46:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[@id='3835']/td[17]/a/i'.
+
+2022-06-15 17:46:44 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:46:45 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Sumathy/Katalon Projects_Scripts/PIR_DIR2/Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open_position.png
+
+2022-06-15 17:46:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:46:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:47:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:47:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:47:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:47:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:47:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:47:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:47:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:47:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:47:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:47:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:47:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category' is clicked on
+
+2022-06-15 17:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category' is clicked on
+
+2022-06-15 17:47:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category' is present
+
+2022-06-15 17:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category' is present
+
+2022-06-15 17:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category"), "cer"): Text 'cer' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category'
+
+2022-06-15 17:47:26 - [MESSAGE][PASSED] - Text 'cer' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category'
+
+2022-06-15 17:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor' is clicked on
+
+2022-06-15 17:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor' is clicked on
+
+2022-06-15 17:47:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity"), "Ceramic Capacitor", true): All options with value 'Ceramic Capacitor' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity'  using regular expression
+
+2022-06-15 17:47:33 - [MESSAGE][PASSED] - All options with value 'Ceramic Capacitor' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity'  using regular expression
+
+2022-06-15 17:47:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:47:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:47:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/GBS/AF_Review_Save" time="111.374" classname="Test Cases/Checklist/GBS/AF_Review_Save" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:47:36 - [TEST_CASE][PASSED] - Test Cases/Checklist/GBS/AF_Review_Save: Test Cases/Checklist/GBS/AF_Review_Save
+
+2022-06-15 17:47:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:47:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:47:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:47:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:47:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:47:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:47:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:47:39 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:47:42 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:47:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:47:42 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:47:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:47:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:47:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:47:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:47:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:47:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:47:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Flex_Organization")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:47:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/select_Organization"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:48:00 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:48:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:48:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:48:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:48:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:48:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:48:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:48:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:49:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:49:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:49:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:49:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:49:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:49:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:49:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:49:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:49:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:49:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:49:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:49:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category' is clicked on
+
+2022-06-15 17:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category' is clicked on
+
+2022-06-15 17:49:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category' is present
+
+2022-06-15 17:49:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category' is present
+
+2022-06-15 17:49:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category"), "cer"): Text 'cer' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category'
+
+2022-06-15 17:49:16 - [MESSAGE][PASSED] - Text 'cer' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category'
+
+2022-06-15 17:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor' is clicked on
+
+2022-06-15 17:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_Ceramic Capacitor' is clicked on
+
+2022-06-15 17:49:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity"), "Ceramic Capacitor", true): All options with value 'Ceramic Capacitor' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity'  using regular expression
+
+2022-06-15 17:49:20 - [MESSAGE][PASSED] - All options with value 'Ceramic Capacitor' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/select_Commodity'  using regular expression
+
+2022-06-15 17:49:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Commodity code"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Commodity code' is present
+
+2022-06-15 17:49:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Commodity code' is present
+
+2022-06-15 17:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Commodity Prefix_attr"), "CAP"): Text 'CAP' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Commodity Prefix_attr'
+
+2022-06-15 17:49:21 - [MESSAGE][PASSED] - Text 'CAP' is set on object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Commodity Prefix_attr'
+
+2022-06-15 17:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save' is clicked on
+
+2022-06-15 17:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save' is clicked on
+
+2022-06-15 17:49:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:49:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:49:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success' is present
+
+2022-06-15 17:49:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success' is present
+
+2022-06-15 17:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:49:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:49:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/GBS/AF_Review_RevertSave" time="103.234" classname="Test Cases/Checklist/GBS/AF_Review_RevertSave" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:49:28 - [TEST_CASE][PASSED] - Test Cases/Checklist/GBS/AF_Review_RevertSave: Test Cases/Checklist/GBS/AF_Review_RevertSave
+
+2022-06-15 17:49:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:49:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:49:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:49:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:49:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:49:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:49:30 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:49:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:49:33 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:49:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:49:33 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:49:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:49:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:49:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:49:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:49:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:49:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:49:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:49:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Technical Sourcing' is clicked on
+
+2022-06-15 17:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/span_Flex_Organization")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization' is clicked on
+
+2022-06-15 17:49:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS Project/select_Organization"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:49:49 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Organization'  using regular expression
+
+2022-06-15 17:49:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:49:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:49:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:50:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:50:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:50:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:50:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' successfully
+
+2022-06-15 17:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/i_Project-folder-open")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:50:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:50:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:50:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:50:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:50:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:50:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:50:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain' is clicked on
+
+2022-06-15 17:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review' is clicked on
+
+2022-06-15 17:50:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:51:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review' is present
+
+2022-06-15 17:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:51:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005' is present
+
+2022-06-15 17:51:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Revert")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Revert' is clicked on
+
+2022-06-15 17:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Revert' is clicked on
+
+2022-06-15 17:51:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_WARNING_Revert"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_WARNING_Revert' is present
+
+2022-06-15 17:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_WARNING_Revert' is present
+
+2022-06-15 17:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Yes")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Yes' is clicked on
+
+2022-06-15 17:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Yes' is clicked on
+
+2022-06-15 17:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview' is clicked on
+
+2022-06-15 17:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save' is clicked on
+
+2022-06-15 17:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Save' is clicked on
+
+2022-06-15 17:51:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:51:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:51:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success' is present
+
+2022-06-15 17:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Save Success' is present
+
+2022-06-15 17:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/i_return-arrow' is clicked on
+
+2022-06-15 17:51:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:51:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/GBS/AF_Export_Dashboard" time="31.832" classname="Test Cases/Sanity/GBS/AF_Export_Dashboard" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:51:11 - [TEST_CASE][PASSED] - Test Cases/Sanity/GBS/AF_Export_Dashboard: Test Cases/Sanity/GBS/AF_Export_Dashboard
+
+2022-06-15 17:51:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:51:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:51:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:51:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:51:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:51:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:51:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:51:13 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:51:16 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:51:17 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:51:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:51:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:51:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:51:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:51:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:51:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing' is clicked on
+
+2022-06-15 17:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing' is clicked on
+
+2022-06-15 17:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/span_Flex")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex' is clicked on
+
+2022-06-15 17:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex' is clicked on
+
+2022-06-15 17:51:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex'  using regular expression
+
+2022-06-15 17:51:36 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex'  using regular expression
+
+2022-06-15 17:51:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:51:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:51:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS Project/i_Project file-excel"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel' successfully
+
+2022-06-15 17:51:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel' successfully
+
+2022-06-15 17:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/i_Project file-excel")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel' is clicked on
+
+2022-06-15 17:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel' is clicked on
+
+2022-06-15 17:51:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/ul_ExportOptions"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/ul_ExportOptions' is present
+
+2022-06-15 17:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/ul_ExportOptions' is present
+
+2022-06-15 17:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/a_Both")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/a_Both' is clicked on
+
+2022-06-15 17:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/a_Both' is clicked on
+
+2022-06-15 17:51:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project"), 0): Object 'Object Repository/Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project' is present
+
+2022-06-15 17:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project' is present
+
+2022-06-15 17:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checklist/GBS/AF_Export_Mainpage" time="62.327" classname="Test Cases/Checklist/GBS/AF_Export_Mainpage" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:51:43 - [TEST_CASE][PASSED] - Test Cases/Checklist/GBS/AF_Export_Mainpage: Test Cases/Checklist/GBS/AF_Export_Mainpage
+
+2022-06-15 17:51:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:51:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:51:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:51:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:51:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:51:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:51:45 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:51:45 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:51:47 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:51:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:51:48 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:51:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:51:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:51:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:51:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:51:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:51:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_GBS")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_GBS' is clicked on
+
+2022-06-15 17:51:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing' is clicked on
+
+2022-06-15 17:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing' is clicked on
+
+2022-06-15 17:51:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/span_Flex")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex' is clicked on
+
+2022-06-15 17:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/span_Flex' is clicked on
+
+2022-06-15 17:51:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex'  using regular expression
+
+2022-06-15 17:52:04 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex'  using regular expression
+
+2022-06-15 17:52:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:52:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:52:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:52:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open'. Try using Self-healing.
+
+2022-06-15 17:52:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-06-15 17:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open' is clicked on
+
+2022-06-15 17:52:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:52:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:52:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 1): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:52:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 1): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:52:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export"), 1): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export' is present
+
+2022-06-15 17:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export' is present
+
+2022-06-15 17:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export' is clicked on
+
+2022-06-15 17:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export' is clicked on
+
+2022-06-15 17:52:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/ul_Export Options_Project"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/ul_Export Options_Project' is present
+
+2022-06-15 17:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/ul_Export Options_Project' is present
+
+2022-06-15 17:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Both_Project")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Both_Project' is clicked on
+
+2022-06-15 17:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Both_Project' is clicked on
+
+2022-06-15 17:52:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:52:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005' is present
+
+2022-06-15 17:52:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects"), 2): Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:52:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects' is present
+
+2022-06-15 17:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/GBS Request/Create AF Request" time="147.71" classname="Test Cases/Sanity/GBS Request/Create AF Request" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:52:45 - [TEST_CASE][PASSED] - Test Cases/Sanity/GBS Request/Create AF Request: Test Cases/Sanity/GBS Request/Create AF Request
+
+2022-06-15 17:52:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:52:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:52:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:52:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:52:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:52:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:52:48 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:52:48 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:52:51 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:52:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform_GBS/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:52:51 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform_GBS/Username'
+
+2022-06-15 17:52:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform_GBS/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:52:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform_GBS/password'
+
+2022-06-15 17:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform_GBS/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/button_Sign in' is clicked on
+
+2022-06-15 17:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:52:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:52:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu' is present
+
+2022-06-15 17:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS_Request/span_GBS Project Request")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_GBS Project Request' is clicked on
+
+2022-06-15 17:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_GBS Project Request' is clicked on
+
+2022-06-15 17:52:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_To Create Request"), 2): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_To Create Request' is present
+
+2022-06-15 17:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_To Create Request' is present
+
+2022-06-15 17:53:00 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Page_DIR_GBS/GBS_Request/div_To Create Request"), REQAF_File): null
+
+2022-06-15 17:53:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:53:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:53:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_Choose Analysis Type_Request"), 2): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Choose Analysis Type_Request' is present
+
+2022-06-15 17:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Choose Analysis Type_Request' is present
+
+2022-06-15 17:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/button_OK_Request")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request' is clicked on
+
+2022-06-15 17:53:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[87]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:53:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request'. Try using Self-healing.
+
+2022-06-15 17:53:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[87]'.
+
+2022-06-15 17:53:35 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::button[1]'.
+
+2022-06-15 17:53:35 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Sumathy/Katalon Projects_Scripts/PIR_DIR2/Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request_neighbor.png
+
+2022-06-15 17:53:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::button[1]'.
+
+2022-06-15 17:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request' is clicked on
+
+2022-06-15 17:53:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_Project Request Details"), 2): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Project Request Details' is present
+
+2022-06-15 17:53:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Project Request Details' is present
+
+2022-06-15 17:53:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS Project/button_Please select site")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Please select site' is clicked on
+
+2022-06-15 17:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_Please select site' is clicked on
+
+2022-06-15 17:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/span_012 - PCBA KALLANG, SINGAPORE (012)")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_012 - PCBA KALLANG, SINGAPORE (012)' is clicked on
+
+2022-06-15 17:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_012 - PCBA KALLANG, SINGAPORE (012)' is clicked on
+
+2022-06-15 17:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/button_Customer")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_Customer' is clicked on
+
+2022-06-15 17:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_Customer' is clicked on
+
+2022-06-15 17:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/span_3M COMPANY")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_3M COMPANY' is clicked on
+
+2022-06-15 17:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_3M COMPANY' is clicked on
+
+2022-06-15 17:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/input__dueDateRequest")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/input__dueDateRequest' is clicked on
+
+2022-06-15 17:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/input__dueDateRequest' is clicked on
+
+2022-06-15 17:53:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 17:53:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 17:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/span_MonthRequest")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_MonthRequest' is clicked on
+
+2022-06-15 17:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_MonthRequest' is clicked on
+
+2022-06-15 17:53:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS_Request/div_DecemberRequest"), 2, STOP_ON_FAILURE): Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/div_DecemberRequest' successfully
+
+2022-06-15 17:53:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/div_DecemberRequest' successfully
+
+2022-06-15 17:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/div_DecemberRequest")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_DecemberRequest' is clicked on
+
+2022-06-15 17:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_DecemberRequest' is clicked on
+
+2022-06-15 17:53:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:53:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/span_YearRequest")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_YearRequest' is clicked on
+
+2022-06-15 17:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/span_YearRequest' is clicked on
+
+2022-06-15 17:53:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:53:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:53:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS_Request/div_Year2024Request"), 2): Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Year2024Request' successfully
+
+2022-06-15 17:53:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/div_Year2024Request' successfully
+
+2022-06-15 17:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/div_Year2024Request")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_Year2024Request' is clicked on
+
+2022-06-15 17:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_Year2024Request' is clicked on
+
+2022-06-15 17:53:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:54:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/div_Date31Request")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_Date31Request' is clicked on
+
+2022-06-15 17:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/div_Date31Request' is clicked on
+
+2022-06-15 17:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 17:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 17:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DIR_GBS/GBS_Request/textarea_Comments_Request"), "Please Ignore. Test file created by DIR support team for testing purpose"): Text 'Please Ignore. Test file created by DIR support team for testing purpose' is set on object 'Object Repository/Page_DIR_GBS/GBS_Request/textarea_Comments_Request'
+
+2022-06-15 17:54:03 - [MESSAGE][PASSED] - Text 'Please Ignore. Test file created by DIR support team for testing purpose' is set on object 'Object Repository/Page_DIR_GBS/GBS_Request/textarea_Comments_Request'
+
+2022-06-15 17:54:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR_GBS/GBS_Request/select_RequestType"), 2, STOP_ON_FAILURE): Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/select_RequestType' successfully
+
+2022-06-15 17:54:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR_GBS/GBS_Request/select_RequestType' successfully
+
+2022-06-15 17:54:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS_Request/select_RequestType"), "GBS", true): All options with value 'GBS' are selected in object 'Object Repository/Page_DIR_GBS/GBS_Request/select_RequestType'  using regular expression
+
+2022-06-15 17:54:05 - [MESSAGE][PASSED] - All options with value 'GBS' are selected in object 'Object Repository/Page_DIR_GBS/GBS_Request/select_RequestType'  using regular expression
+
+2022-06-15 17:54:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_DIR_GBS/GBS_Request/select_Application"), "MILITARY", true): All options with value 'MILITARY' are selected in object 'Object Repository/Page_DIR_GBS/GBS_Request/select_Application'  using regular expression
+
+2022-06-15 17:54:06 - [MESSAGE][PASSED] - All options with value 'MILITARY' are selected in object 'Object Repository/Page_DIR_GBS/GBS_Request/select_Application'  using regular expression
+
+2022-06-15 17:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/GBS_Request/button_CreateRequest")): Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_CreateRequest' is clicked on
+
+2022-06-15 17:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS_Request/button_CreateRequest' is clicked on
+
+2022-06-15 17:54:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_SuccessProject Request"), 4): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_SuccessProject Request' is present
+
+2022-06-15 17:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_SuccessProject Request' is present
+
+2022-06-15 17:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR_GBS/GBS Project/button_OK")): Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_OK' is clicked on
+
+2022-06-15 17:55:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[87]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-15 17:55:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR_GBS/GBS Project/button_OK'. Try using Self-healing.
+
+2022-06-15 17:55:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[87]'.
+
+2022-06-15 17:55:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::button[1]'.
+
+2022-06-15 17:55:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Choose Analysis Type'])[1]/following::button[3]'.
+
+2022-06-15 17:55:10 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//*/text()[normalize-space(.)='OK']/parent::*'.
+
+2022-06-15 17:55:10 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Sumathy/Katalon Projects_Scripts/PIR_DIR2/Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/button_OK_neighbor.png
+
+2022-06-15 17:55:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR_GBS/GBS Project/button_OK' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='OK']/parent::*'.
+
+2022-06-15 17:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/GBS Project/button_OK' is clicked on
+
+2022-06-15 17:55:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_AFSelfServiceAlert"), 2): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_AFSelfServiceAlert' is present
+
+2022-06-15 17:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_AFSelfServiceAlert' is present
+
+2022-06-15 17:55:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_AFSelfServiceEmail"), 2): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_AFSelfServiceEmail' is present
+
+2022-06-15 17:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_AFSelfServiceEmail' is present
+
+2022-06-15 17:55:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR_GBS/GBS_Request/div_To Create Request"), 0): Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_To Create Request' is present
+
+2022-06-15 17:55:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-15 17:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR_GBS/GBS_Request/div_To Create Request' is present
+
+2022-06-15 17:55:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR_GBS/a_Logout")): Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on
+
+2022-06-15 17:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR_GBS/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/Supplier Finder/Check Data and Export" time="23.54" classname="Test Cases/Sanity/Supplier Finder/Check Data and Export" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:55:13 - [TEST_CASE][PASSED] - Test Cases/Sanity/Supplier Finder/Check Data and Export: Test Cases/Sanity/Supplier Finder/Check Data and Export
+
+2022-06-15 17:55:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:55:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-15 17:55:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:55:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:55:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:55:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:55:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:55:15 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:55:18 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-15 17:55:19 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-15 17:55:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-15 17:55:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-15 17:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-15 17:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-15 17:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:55:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform/div_WelcomeMenu"), 1): Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-15 17:55:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-15 17:55:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_Supplier Finder")): Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-15 17:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-15 17:55:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_Supplier Finder"), 2): Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_datatable_header"), 1): Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_DIR/td_SupplierName"), "5D INDUSTRIA"): Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierName' are matched.
+
+2022-06-15 17:55:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierName' are matched.
+
+2022-06-15 17:55:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/button_Export"), 1): Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-06-15 17:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-06-15 17:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/button_Export")): Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-06-15 17:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-06-15 17:55:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_Supplier Finder"), 2): Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Logout")): Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-15 17:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-15 17:55:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-15 17:55:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/Supplier Finder/Apply Filter" time="22.752" classname="Test Cases/Sanity/Supplier Finder/Apply Filter" status="PASSED">
+         <system-out><![CDATA[2022-06-15 17:55:36 - [TEST_CASE][PASSED] - Test Cases/Sanity/Supplier Finder/Apply Filter: Test Cases/Sanity/Supplier Finder/Apply Filter
+
+2022-06-15 17:55:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-15 17:55:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-15 17:55:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-15 17:55:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-15 17:55:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-15 17:55:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-15 17:55:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:55:40 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-15 17:55:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-15 17:55:41 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-15 17:55:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-15 17:55:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-15 17:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-15 17:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-15 17:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-15 17:55:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform/div_WelcomeMenu"), 1): Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-15 17:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-15 17:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_Supplier Finder")): Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-15 17:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-15 17:55:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_Supplier Finder"), 2): Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-15 17:55:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_datatable_header"), 1): Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/button_VPGroup"), 1): Object 'Object Repository/Page_DIR/button_VPGroup' is present
+
+2022-06-15 17:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/button_VPGroup' is present
+
+2022-06-15 17:55:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_DIR/select_VPGroupDropdown"), "MEMORY STORAGE PRODUCT GROUP", true): All options with value 'MEMORY STORAGE PRODUCT GROUP' are selected in object 'Object Repository/Page_DIR/select_VPGroupDropdown'  using regular expression
+
+2022-06-15 17:55:53 - [MESSAGE][PASSED] - All options with value 'MEMORY STORAGE PRODUCT GROUP' are selected in object 'Object Repository/Page_DIR/select_VPGroupDropdown'  using regular expression
+
+2022-06-15 17:55:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_datatable_header"), 1): Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/button_SupplierType"), 1): Object 'Object Repository/Page_DIR/button_SupplierType' is present
+
+2022-06-15 17:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/button_SupplierType' is present
+
+2022-06-15 17:55:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_DIR/select_SupplierTypeDropdown"), "DISTRIBUTOR", true): All options with value 'DISTRIBUTOR' are selected in object 'Object Repository/Page_DIR/select_SupplierTypeDropdown'  using regular expression
+
+2022-06-15 17:55:55 - [MESSAGE][PASSED] - All options with value 'DISTRIBUTOR' are selected in object 'Object Repository/Page_DIR/select_SupplierTypeDropdown'  using regular expression
+
+2022-06-15 17:55:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_datatable_header"), 1): Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-15 17:55:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_DIR/td_VPGroupValue"), "MEMORY STORAGE PRODUCT GROUP"): Actual text and expected text of test object 'Object Repository/Page_DIR/td_VPGroupValue' are matched.
+
+2022-06-15 17:55:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_DIR/td_VPGroupValue' are matched.
+
+2022-06-15 17:55:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_DIR/td_SupplierTypeValue"), "DISTRIBUTOR"): Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierTypeValue' are matched.
+
+2022-06-15 17:55:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierTypeValue' are matched.
+
+2022-06-15 17:55:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_DIR/td_Level1DescValue"), "DISTRIBUTOR"): Actual text and expected text of test object 'Object Repository/Page_DIR/td_Level1DescValue' are matched.
+
+2022-06-15 17:55:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_DIR/td_Level1DescValue' are matched.
+
+2022-06-15 17:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-15 17:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Logout")): Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-15 17:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-15 17:55:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-15 17:55:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-15 17:42:28 - [TEST_SUITE][PASSED] - Sanity_GBS: Test Cases/Sanity/Supplier Finder/Apply Filter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

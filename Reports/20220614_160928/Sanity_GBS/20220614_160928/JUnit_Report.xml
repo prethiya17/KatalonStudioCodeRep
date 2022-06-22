@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity_GBS" time="35.323" tests="1" failures="0" errors="0">
+   <testsuite name="Sanity_GBS" tests="1" failures="0" errors="0" time="35.323" skipped="0" timestamp="2022-06-14 16:09:50" hostname="gsstjaya - GSSM0803.asia.ad.flextronics.com" id="Test Suites/Sanity_GBS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220614_160928\\Sanity_GBS\\20220614_160928"/>
+         <property name="logFiles" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220614_160928\\Sanity_GBS\\20220614_160928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsstjaya - GSSM0803.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.195.96.69"/>
+         <property name="sessionId" value="68c94b40b32c3b529c678906783aeb52"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/Supplier Finder/Check Data and Export" time="34.637" classname="Test Cases/Sanity/Supplier Finder/Check Data and Export" status="PASSED">
+         <system-out><![CDATA[2022-06-14 16:09:51 - [TEST_CASE][PASSED] - Test Cases/Sanity/Supplier Finder/Check Data and Export: Test Cases/Sanity/Supplier Finder/Check Data and Export
+
+2022-06-14 16:09:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-14 16:09:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-14 16:09:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-14 16:09:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-14 16:09:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-14 16:09:56 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-14 16:09:56 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-14 16:10:03 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-06-14 16:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-14 16:10:04 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-06-14 16:10:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-14 16:10:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-06-14 16:10:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-14 16:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-06-14 16:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-14 16:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-06-14 16:10:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform/div_WelcomeMenu"), 1): Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-14 16:10:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-06-14 16:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_Supplier Finder")): Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-14 16:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_Supplier Finder' is clicked on
+
+2022-06-14 16:10:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_Supplier Finder"), 2): Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-14 16:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-14 16:10:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_datatable_header"), 1): Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-14 16:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_datatable_header' is present
+
+2022-06-14 16:10:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_DIR/td_SupplierName"), "5D INDUSTRIA"): Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierName' are matched.
+
+2022-06-14 16:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_DIR/td_SupplierName' are matched.
+
+2022-06-14 16:10:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/button_Export"), 1): Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-06-14 16:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-06-14 16:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/button_Export")): Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-06-14 16:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-06-14 16:10:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_Supplier Finder"), 2): Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-14 16:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_Supplier Finder' is present
+
+2022-06-14 16:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-14 16:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/span_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-06-14 16:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Logout")): Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-14 16:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-06-14 16:10:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-14 16:10:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-14 16:09:50 - [TEST_SUITE][PASSED] - Sanity_GBS: Test Cases/Sanity/Supplier Finder/Check Data and Export]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

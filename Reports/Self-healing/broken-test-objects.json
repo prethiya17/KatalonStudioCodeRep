@@ -2,23 +2,193 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Page_Price It Right/input_Project_hide-input-line",
-      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[31]",
+      "testObjectId": "Object Repository/Page_DIR/textarea_Comments_comments",
+      "brokenLocator": "//textarea[@id\u003d\u0027req-comments-text-area\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027qit-table_wrapper\u0027]/div/div[3]/div/table/thead/tr[2]/td[2]/div/input",
+      "proposedLocator": "//textarea",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Price It Right/input_Project_hide-input-line_idRelative.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/textarea_Comments_comments_position.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Page_LoginPage_It-Right/Three line icon",
-      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "testObjectId": "Object Repository/Page_DIR/button_Create",
+      "brokenLocator": "//button[@id\u003d\u0027create-request\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//button",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[2]/preceding::button[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_LoginPage_It-Right/Three line icon_position.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/button_Create_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[17]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/i_Project-folder-open_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/span_Select product category",
+      "brokenLocator": "//div[@id\u003d\u0027af-review-content\u0027]/div/div/div/div[2]/div/button/div/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Parts Review\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/span_Flex_Organization",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-1-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Technical Sourcing\u0027])[3]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/span_Flex_Organization_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/span_Flex",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-1-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Technical Sourcing\u0027])[3]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/span_Flex_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/a_Thanga Sumathy Jayakumar_dropdown-toggle",
+      "brokenLocator": "//tr[@id\u003d\u002750628\u0027]/td[17]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thanga Sumathy Jayakumar\u0027])[12]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/a_Thanga Sumathy Jayakumar_dropdown-toggle_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/button_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027OK\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR/button_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/textarea_Comments_comments",
+      "brokenLocator": "//textarea[@id\u003d\u0027req-comments-text-area\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/textarea_Comments_comments_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/button_Create",
+      "brokenLocator": "//button[@id\u003d\u0027create-request\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[2]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/button_Create_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[17]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/i_Project-folder-open_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/button_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027OK\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/button_OK_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments",
+      "brokenLocator": "//textarea[@id\u003d\u0027req-comments-text-area\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/textarea_Comments_comments_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/button_Create",
+      "brokenLocator": "//button[@id\u003d\u0027create-request\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[2]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/button_Create_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[17]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS_Request/button_OK_Request_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[87]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027OK\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/button_OK_neighbor.png"
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/textarea_Comments_comments",
+      "brokenLocator": "//textarea[@id\u003d\u0027req-comments-text-area\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220517_163826/Sanity_GBS/20220517_163827/Object Repository/Page_DIR/textarea_Comments_comments_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR/button_Create",
+      "brokenLocator": "//button[@id\u003d\u0027create-request\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[2]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220517_163826/Sanity_GBS/20220517_163827/Object Repository/Page_DIR/button_Create_neighbor.png"
+    }
+  ]
+}

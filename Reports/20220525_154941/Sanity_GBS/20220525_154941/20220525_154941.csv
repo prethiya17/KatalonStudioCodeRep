@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_GBS,Chrome 101.0.4951.67,,,2022-05-25 15:49:52,2022-05-25 15:50:38,46.437s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/Create AF Project,Chrome 101.0.4951.67,Create AF Project,,2022-05-25 15:49:52,2022-05-25 15:50:04,11.825s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-25 15:49:53,2022-05-25 15:49:55,2.800s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-25 15:49:55,2022-05-25 15:49:56,0.150s,PASSED
+navigateToUrl(URL),Chrome 101.0.4951.67,,,2022-05-25 15:49:56,2022-05-25 15:50:00,4.694s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 101.0.4951.67,,,2022-05-25 15:50:00,2022-05-25 15:50:01,0.345s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 101.0.4951.67,,,2022-05-25 15:50:01,2022-05-25 15:50:01,0.220s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:01,2022-05-25 15:50:03,2.476s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:03,2022-05-25 15:50:03,0.150s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 101.0.4951.67,,,2022-05-25 15:50:03,2022-05-25 15:50:04,0.130s,PASSED
+"click(findTestObject(""Page_It-Right Platform/span_GBS""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:04,2022-05-25 15:50:04,0.267s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/AF_Review_Save,Chrome 101.0.4951.67,,,2022-05-25 15:50:04,2022-05-25 15:50:12,8.137s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-25 15:50:04,2022-05-25 15:50:06,1.761s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-25 15:50:06,2022-05-25 15:50:06,0.130s,PASSED
+navigateToUrl(URL),Chrome 101.0.4951.67,,,2022-05-25 15:50:06,2022-05-25 15:50:09,2.593s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 101.0.4951.67,,,2022-05-25 15:50:09,2022-05-25 15:50:09,0.257s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 101.0.4951.67,,,2022-05-25 15:50:09,2022-05-25 15:50:09,0.239s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:09,2022-05-25 15:50:12,2.369s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:12,2022-05-25 15:50:12,0.135s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 101.0.4951.67,,,2022-05-25 15:50:12,2022-05-25 15:50:12,0.098s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_GBS""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:12,2022-05-25 15:50:12,0.204s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/AF_Review_RevertSave,Chrome 101.0.4951.67,,,2022-05-25 15:50:12,2022-05-25 15:50:23,11.091s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-25 15:50:12,2022-05-25 15:50:14,1.809s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-25 15:50:14,2022-05-25 15:50:14,0.133s,PASSED
+navigateToUrl(URL),Chrome 101.0.4951.67,,,2022-05-25 15:50:14,2022-05-25 15:50:20,5.700s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 101.0.4951.67,,,2022-05-25 15:50:20,2022-05-25 15:50:20,0.228s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 101.0.4951.67,,,2022-05-25 15:50:20,2022-05-25 15:50:20,0.197s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:20,2022-05-25 15:50:23,2.163s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:23,2022-05-25 15:50:23,0.129s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 101.0.4951.67,,,2022-05-25 15:50:23,2022-05-25 15:50:23,0.113s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_GBS""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:23,2022-05-25 15:50:23,0.262s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/AF_Export,Chrome 101.0.4951.67,AF_Export,,2022-05-25 15:50:23,2022-05-25 15:50:31,7.780s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-25 15:50:23,2022-05-25 15:50:25,1.820s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-25 15:50:25,2022-05-25 15:50:25,0.131s,PASSED
+navigateToUrl(URL),Chrome 101.0.4951.67,,,2022-05-25 15:50:25,2022-05-25 15:50:28,2.252s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 101.0.4951.67,,,2022-05-25 15:50:28,2022-05-25 15:50:28,0.208s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 101.0.4951.67,,,2022-05-25 15:50:28,2022-05-25 15:50:28,0.197s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:28,2022-05-25 15:50:30,2.241s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:30,2022-05-25 15:50:31,0.167s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 101.0.4951.67,,,2022-05-25 15:50:31,2022-05-25 15:50:31,0.098s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_GBS""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:31,2022-05-25 15:50:31,0.233s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS Request/Create AF Request,Chrome 101.0.4951.67,Create AF Request,,2022-05-25 15:50:31,2022-05-25 15:50:38,7.263s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-25 15:50:31,2022-05-25 15:50:33,1.781s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-25 15:50:33,2022-05-25 15:50:33,0.126s,PASSED
+navigateToUrl(URL),Chrome 101.0.4951.67,,,2022-05-25 15:50:33,2022-05-25 15:50:35,2.239s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), username)",Chrome 101.0.4951.67,,,2022-05-25 15:50:35,2022-05-25 15:50:36,0.223s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), pwd)",Chrome 101.0.4951.67,,,2022-05-25 15:50:36,2022-05-25 15:50:36,0.204s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:36,2022-05-25 15:50:38,1.900s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:38,2022-05-25 15:50:38,0.140s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 101.0.4951.67,,,2022-05-25 15:50:38,2022-05-25 15:50:38,0.102s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR/span_GBS Project Request""))",Chrome 101.0.4951.67,,,2022-05-25 15:50:38,2022-05-25 15:50:38,0.208s,FAILED

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity_GBS" time="68.348" tests="1" failures="0" errors="0">
+   <testsuite name="Sanity_GBS" tests="1" failures="0" errors="0" time="68.348" skipped="0" timestamp="2022-05-18 13:29:50" hostname="gsstjaya - GSSM0803.asia.ad.flextronics.com" id="Test Suites/Sanity_GBS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220518_132939\\Sanity_GBS\\20220518_132939"/>
+         <property name="logFiles" value="C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR2\\Reports\\20220518_132939\\Sanity_GBS\\20220518_132939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gsstjaya - GSSM0803.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="10.195.96.28"/>
+         <property name="sessionId" value="fefaa3c3e52b85f47af533d14ff4127c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/GBS/AF_Export" time="68.073" classname="Test Cases/Sanity/GBS/AF_Export" status="PASSED">
+         <system-out><![CDATA[2022-05-18 13:29:50 - [TEST_CASE][PASSED] - Test Cases/Sanity/GBS/AF_Export: Test Cases/Sanity/GBS/AF_Export
+
+2022-05-18 13:29:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 13:29:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 13:29:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 13:29:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 13:29:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 13:29:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 13:29:53 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-05-18 13:29:57 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-05-18 13:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_It-Right Platform/Username"), username): Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-05-18 13:29:58 - [MESSAGE][PASSED] - Text 'gsstjaya' is set on object 'Object Repository/Page_It-Right Platform/Username'
+
+2022-05-18 13:29:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_It-Right Platform/password"), pwd): Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-05-18 13:29:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_It-Right Platform/password'
+
+2022-05-18 13:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_It-Right Platform/button_Sign in")): Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-05-18 13:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/button_Sign in' is clicked on
+
+2022-05-18 13:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_WelcomeToggler")): Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-05-18 13:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_WelcomeToggler' is clicked on
+
+2022-05-18 13:30:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_It-Right Platform/div_WelcomeMenu"), 0): Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-05-18 13:30:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-18 13:30:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_It-Right Platform/div_WelcomeMenu' is present
+
+2022-05-18 13:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_It-Right Platform/span_GBS")): Object: 'Object Repository/Page_It-Right Platform/span_GBS' is clicked on
+
+2022-05-18 13:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_It-Right Platform/span_GBS' is clicked on
+
+2022-05-18 13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/div_Technical Sourcing")): Object: 'Object Repository/Page_DIR/div_Technical Sourcing' is clicked on
+
+2022-05-18 13:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/div_Technical Sourcing' is clicked on
+
+2022-05-18 13:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/span_Flex")): Object: 'Object Repository/Page_DIR/span_Flex' is clicked on
+
+2022-05-18 13:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/span_Flex' is clicked on
+
+2022-05-18 13:30:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_DIR/select_Technical Sourcing                Flex"), "FLEX", true): All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR/select_Technical Sourcing                Flex'  using regular expression
+
+2022-05-18 13:30:14 - [MESSAGE][PASSED] - All options with value 'FLEX' are selected in object 'Object Repository/Page_DIR/select_Technical Sourcing                Flex'  using regular expression
+
+2022-05-18 13:30:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-18 13:30:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-18 13:30:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DIR/i_Project file-excel"), 2): Scroll to object 'Object Repository/Page_DIR/i_Project file-excel' successfully
+
+2022-05-18 13:30:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DIR/i_Project file-excel' successfully
+
+2022-05-18 13:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR/i_Project file-excel")): Object: 'Object Repository/Page_DIR/i_Project file-excel' is clicked on
+
+2022-05-18 13:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/i_Project file-excel' is clicked on
+
+2022-05-18 13:30:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR/ul_ExportOptions"), 0): Object 'Object Repository/Page_DIR/ul_ExportOptions' is present
+
+2022-05-18 13:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-18 13:30:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/ul_ExportOptions' is present
+
+2022-05-18 13:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Both")): Object: 'Object Repository/Page_DIR/a_Both' is clicked on
+
+2022-05-18 13:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Both' is clicked on
+
+2022-05-18 13:30:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/div_To Create Project   Drop GBS project fi_7b232b_1"), 0): Object 'Object Repository/Page_DIR/div_To Create Project   Drop GBS project fi_7b232b_1' is present
+
+2022-05-18 13:30:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-18 13:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/div_To Create Project   Drop GBS project fi_7b232b_1' is present
+
+2022-05-18 13:30:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/i_Project-folder-open")): Object: 'Object Repository/Page_DIR/i_Project-folder-open' is clicked on
+
+2022-05-18 13:30:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id='3835']/td[17]/a/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-18 13:30:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DIR/i_Project-folder-open'. Try using Self-healing.
+
+2022-05-18 13:30:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DIR/i_Project-folder-open' was broken. Propose an alternative one: '//tr[2]/td[17]/a/i'.
+
+2022-05-18 13:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/i_Project-folder-open' is clicked on
+
+2022-05-18 13:30:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-18 13:30:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-18 13:30:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/a_Back to Projects"), 3): Object 'Object Repository/Page_DIR/a_Back to Projects' is present
+
+2022-05-18 13:30:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/a_Back to Projects' is present
+
+2022-05-18 13:30:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/a_PIR-TEST-0005"), 3): Object 'Object Repository/Page_DIR/a_PIR-TEST-0005' is present
+
+2022-05-18 13:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/a_PIR-TEST-0005' is present
+
+2022-05-18 13:30:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/button_Export"), 3): Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-05-18 13:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/button_Export' is present
+
+2022-05-18 13:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/button_Export")): Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-05-18 13:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/button_Export' is clicked on
+
+2022-05-18 13:30:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_DIR/ul_Export Options_Project"), 3): Object 'Object Repository/Page_DIR/ul_Export Options_Project' is present
+
+2022-05-18 13:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/ul_Export Options_Project' is present
+
+2022-05-18 13:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_DIR/a_Both_Project")): Object: 'Object Repository/Page_DIR/a_Both_Project' is clicked on
+
+2022-05-18 13:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Both_Project' is clicked on
+
+2022-05-18 13:30:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/a_PIR-TEST-0005"), 3): Object 'Object Repository/Page_DIR/a_PIR-TEST-0005' is present
+
+2022-05-18 13:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/a_PIR-TEST-0005' is present
+
+2022-05-18 13:30:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_DIR/a_Back to Projects"), 3): Object 'Object Repository/Page_DIR/a_Back to Projects' is present
+
+2022-05-18 13:30:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_DIR/a_Back to Projects' is present
+
+2022-05-18 13:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Welcome Thangasumathy Jayakumar")): Object: 'Object Repository/Page_DIR/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-05-18 13:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Welcome Thangasumathy Jayakumar' is clicked on
+
+2022-05-18 13:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DIR/a_Logout")): Object: 'Object Repository/Page_DIR/a_Logout' is clicked on
+
+2022-05-18 13:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DIR/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 13:29:50 - [TEST_SUITE][PASSED] - Sanity_GBS: Test Cases/Sanity/GBS/AF_Export]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

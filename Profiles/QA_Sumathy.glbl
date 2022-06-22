@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA_Sumathy</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gsstjaya'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pirqa.flex.com/login'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xD57aNky8pP1NA1DriUY9g=='</initValue>
+      <name>pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR3\\TestFiles\\File for Dummy MPN.xlsx'</initValue>
+      <name>GBSAF_File</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'File for Dummy MPN'</initValue>
+      <name>GBSAF_FileName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR3\\TestFiles\\REQ_SS_AF Check.xlsx'</initValue>
+      <name>REQAF_File</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
