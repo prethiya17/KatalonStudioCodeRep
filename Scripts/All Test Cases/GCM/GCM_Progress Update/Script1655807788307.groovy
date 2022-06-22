@@ -46,5 +46,7 @@ WebUI.click(findTestObject('Object Repository/Page_PIR/button_Export'))
 
 WebUI.click(findTestObject('Object Repository/Page_PIR/a_Current View'))
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 
