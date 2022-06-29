@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page_It-Right Platform/Username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Page_It-Right Platform/Username'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Page_It-Right Platform/password'), GlobalVariable.pwd)
+WebUI.setEncryptedText(findTestObject('Page_It-Right Platform/password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Page_It-Right Platform/button_Sign in'))
 
@@ -91,7 +91,6 @@ WebUI.verifyElementPresent(findTestObject('Page_Collect It Right/a_Contracts_Tab
 
 WebUI.click(findTestObject('Object Repository/Page_Collect It Right/a_CIR_MenuOptions'))
 */
-
 WebUI.click(findTestObject('Page_Collect It Right/a_DWA Annex_Menu'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Collect It Right/a_DWA Annex_TabName'), 0)

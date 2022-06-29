@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel",
+      "brokenLocator": "//tr[@id\u003d\u002750965\u0027]/td[17]/div/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[17]/div/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220627_111149/Sanity_GBS_SF_CIR/20220627_111157/Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel_position.png"
+    }
+  ]
+}

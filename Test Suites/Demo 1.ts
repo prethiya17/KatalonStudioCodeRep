@@ -15,6 +15,7 @@
       <guid>6fae3f61-edea-46da-a6ba-aacf659ee0ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All Test Cases/NBQ/QW Project Upload</testCaseId>
+      <testCaseId>Test Cases/Sanity/NBQ/QW Project Upload</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

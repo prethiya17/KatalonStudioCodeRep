@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Price It Right/button_Export",
+      "brokenLocator": "//button[@id\u003d\u0027exports\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027All\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220627_111149/Sanity_NBQ/20220627_111155/Object Repository/Page_Price It Right/button_Export_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP",
+      "brokenLocator": "//div[@id\u003d\u0027qw-dialog-list-container\u0027]/button[530]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027TEST_PIR_THREE PARTS WITH DNP\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220627_111149/Sanity_NBQ/20220627_111155/Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_PIR/button_Export",
+      "brokenLocator": "//button[@id\u003d\u0027export-dropdown-btn\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Current View\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220627_111149/Sanity_NBQ/20220627_111155/Object Repository/Page_PIR/button_Export_neighbor.png"
+    }
+  ]
+}

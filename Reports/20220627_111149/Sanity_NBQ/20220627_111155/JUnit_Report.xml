@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity_NBQ" time="391.751" tests="6" failures="3" errors="0">
+   <testsuite name="Sanity_NBQ" tests="6" failures="3" errors="0" time="391.751" skipped="0" timestamp="2022-06-27 11:14:59" hostname="gssprpra - GSSM6818.asia.ad.flextronics.com" id="Test Suites/Sanity_NBQ">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155"/>
+         <property name="logFiles" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656308780289.png, C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656308857094.png, C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656309020949.png, C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656309090402.png"/>
+         <property name="hostName" value="gssprpra - GSSM6818.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.195.90.218"/>
+         <property name="sessionId" value="c16f0c77415dd0ac5e9446ba2d025ced"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/All Test Cases/NBQ/Enter MPN" time="61.443" classname="Test Cases/All Test Cases/NBQ/Enter MPN" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:14:59 - [TEST_CASE][PASSED] - Test Cases/All Test Cases/NBQ/Enter MPN: Test Cases/All Test Cases/NBQ/Enter MPN
+
+2022-06-27 11:15:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:15:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:15:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:15:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:15:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:15:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:15:06 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:15:09 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:15:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:15:11 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:15:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:15:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:15:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/span_New Business Quoting")): Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Price It Right/button_Enter MPNs")): Object: 'Object Repository/Page_Price It Right/button_Enter MPNs' is clicked on
+
+2022-06-27 11:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Enter MPNs' is clicked on
+
+2022-06-27 11:15:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Price It Right/select_Select typeNew project quote  pre qu_b32c8e"), "TEST_OR_TRAINING", true): All options with value 'TEST_OR_TRAINING' are selected in object 'Object Repository/Page_Price It Right/select_Select typeNew project quote  pre qu_b32c8e'  using regular expression
+
+2022-06-27 11:15:26 - [MESSAGE][PASSED] - All options with value 'TEST_OR_TRAINING' are selected in object 'Object Repository/Page_Price It Right/select_Select typeNew project quote  pre qu_b32c8e'  using regular expression
+
+2022-06-27 11:15:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Price It Right/button_Apply")): Object: 'Object Repository/Page_Price It Right/button_Apply' is clicked on
+
+2022-06-27 11:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Apply' is clicked on
+
+2022-06-27 11:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Price It Right/input_API Price Check_text"), "DMG1012T|VZH220M1HTR0606K|LQH3NPN2R2MME|DMG1012T-7"): Text 'DMG1012T|VZH220M1HTR0606K|LQH3NPN2R2MME|DMG1012T-7' is set on object 'Object Repository/Page_Price It Right/input_API Price Check_text'
+
+2022-06-27 11:15:33 - [MESSAGE][PASSED] - Text 'DMG1012T|VZH220M1HTR0606K|LQH3NPN2R2MME|DMG1012T-7' is set on object 'Object Repository/Page_Price It Right/input_API Price Check_text'
+
+2022-06-27 11:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Price It Right/button_Run by MPN")): Object: 'Object Repository/Page_Price It Right/button_Run by MPN' is clicked on
+
+2022-06-27 11:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Run by MPN' is clicked on
+
+2022-06-27 11:15:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-27 11:15:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-27 11:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/Export_button")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/Export_button' is clicked on
+
+2022-06-27 11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/Export_button' is clicked on
+
+2022-06-27 11:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/a_All")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:15:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PIR/Page_PIR_NBQ/Add to Compare_button"), 0): Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' successfully
+
+2022-06-27 11:15:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:16:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' successfully
+
+2022-06-27 11:16:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-27 11:16:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Test Cases/NBQ/NBQ Manual Load" time="19.374" classname="Test Cases/All Test Cases/NBQ/NBQ Manual Load" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All Test Cases/NBQ/NBQ Manual Load FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-27 11:16:01 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/NBQ Manual Load: Test Cases/All Test Cases/NBQ/NBQ Manual Load FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-27 11:16:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:16:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:16:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:16:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:16:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:16:06 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:16:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:16:07 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:16:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:16:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:16:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:16:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/span_New Business Quoting")): Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:16:18 - [TEST_STEP][FAILED] - uploadFile(findTestObject("Page_PIR/Page_PIR_NBQ/UploadFile_PIR"), FileLocation): Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Script1653453599168.run(Script1653453599168.groovy:36)
+	... 13 more
+)
+
+2022-06-27 11:16:20 - [MESSAGE][FAILED] - Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at Script1653453599168.run(Script1653453599168.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656308780289.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-27 11:16:01 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/NBQ Manual Load: Test Cases/All Test Cases/NBQ/NBQ Manual Load FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Test Cases/NBQ/QW Restore project" time="76.723" classname="Test Cases/All Test Cases/NBQ/QW Restore project" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 065830c37457b8461ccbc62c083751b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-27 11:16:20 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Restore project: Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 065830c37457b8461ccbc62c083751b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-27 11:16:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:16:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-27 11:16:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:16:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:16:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:16:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:16:27 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:16:28 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:16:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:16:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:16:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:16:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:16:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:16:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_LoginPage_It-Right/span_New Business Quoting"), 0): Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:16:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_Export")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_All")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:16:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-27 11:17:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-27 11:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Price It Right/button_Export")): Object: 'Object Repository/Page_Price It Right/button_Export' is clicked on
+
+2022-06-27 11:17:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='exports']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-27 11:17:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Price It Right/button_Export'. Try using Self-healing.
+
+2022-06-27 11:17:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='exports']'.
+
+2022-06-27 11:17:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Other / Various'])[1]/following::button[1]'.
+
+2022-06-27 11:17:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='MPN Missing / Incomplete / Unknown'])[1]/following::button[1]'.
+
+2022-06-27 11:17:34 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::button[1]'.
+
+2022-06-27 11:17:35 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/gssprpra/git/KatalonStudioCodeRep1/Reports/Self-healing/Object Repository/Page_Price It Right/button_Export_neighbor.png
+
+2022-06-27 11:17:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Price It Right/button_Export' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::button[1]'.
+
+2022-06-27 11:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Export' is clicked on
+
+2022-06-27 11:17:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PIR/Page_PIR_NBQ/a_Costed BOM Report"), 0): Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' successfully
+
+2022-06-27 11:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:17:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' successfully
+
+2022-06-27 11:17:36 - [TEST_STEP][FAILED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/a_Costed BOM Report")): Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 065830c37457b8461ccbc62c083751b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1653467109699.run(Script1653467109699.groovy:52)
+	... 13 more
+)
+
+2022-06-27 11:17:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 065830c37457b8461ccbc62c083751b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1653467109699.run(Script1653467109699.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656308857094.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-27 11:16:20 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Restore project: Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 065830c37457b8461ccbc62c083751b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Test Cases/NBQ/QW Project Upload" time="135.195" classname="Test Cases/All Test Cases/NBQ/QW Project Upload" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:17:37 - [TEST_CASE][PASSED] - Test Cases/All Test Cases/NBQ/QW Project Upload: Test Cases/All Test Cases/NBQ/QW Project Upload
+
+2022-06-27 11:17:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:17:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-27 11:17:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:17:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:17:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:17:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:17:44 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:17:45 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:17:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:17:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:17:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:17:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:17:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_LoginPage_It-Right/span_New Business Quoting"), 2): Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:17:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/span_New Business Quoting")): Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' is clicked on
+
+2022-06-27 11:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/button_QWProject")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject' is clicked on
+
+2022-06-27 11:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject' is clicked on
+
+2022-06-27 11:17:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj"), "three"): Text 'three' is set on object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+
+2022-06-27 11:18:01 - [MESSAGE][PASSED] - Text 'three' is set on object 'Object Repository/Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj'
+
+2022-06-27 11:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP' is clicked on
+
+2022-06-27 11:18:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='qw-dialog-list-container']/button[530]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-27 11:18:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP'. Try using Self-healing.
+
+2022-06-27 11:18:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='qw-dialog-list-container']/button[530]'.
+
+2022-06-27 11:18:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='QUOTE ID# 30144 PCBA - EV002'])[1]/following::button[1]'.
+
+2022-06-27 11:18:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='TEST_PIR_RUNLOG DATA'])[1]/following::button[2]'.
+
+2022-06-27 11:18:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='QUOTE ID#30149 LPVSU'])[1]/preceding::button[1]'.
+
+2022-06-27 11:18:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='QUOTE ID# 30152 PCBA P/N 0000800 COST'])[1]/preceding::button[2]'.
+
+2022-06-27 11:18:34 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//*/text()[normalize-space(.)='TEST_PIR_THREE PARTS WITH DNP']/parent::*'.
+
+2022-06-27 11:18:34 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/gssprpra/git/KatalonStudioCodeRep1/Reports/Self-healing/Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP_neighbor.png
+
+2022-06-27 11:18:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='TEST_PIR_THREE PARTS WITH DNP']/parent::*'.
+
+2022-06-27 11:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP' is clicked on
+
+2022-06-27 11:18:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-27 11:18:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-27 11:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/button_Select")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Select' is clicked on
+
+2022-06-27 11:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Select' is clicked on
+
+2022-06-27 11:18:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-27 11:18:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-27 11:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/span_Run by CPN")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_Run by CPN' is clicked on
+
+2022-06-27 11:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_Run by CPN' is clicked on
+
+2022-06-27 11:18:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-27 11:19:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-27 11:19:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PIR/Page_PIR_NBQ/button_Save"), 0): Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Save' successfully
+
+2022-06-27 11:19:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:19:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Save' successfully
+
+2022-06-27 11:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/button_Save")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Save' is clicked on
+
+2022-06-27 11:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Save' is clicked on
+
+2022-06-27 11:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/button_Export")): Object: 'Object Repository/Page_PIR/button_Export' is clicked on
+
+2022-06-27 11:19:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='export-dropdown-btn']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-27 11:19:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_PIR/button_Export'. Try using Self-healing.
+
+2022-06-27 11:19:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='export-dropdown-btn']'.
+
+2022-06-27 11:19:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//form[@id='filter-form']/fieldset/div[9]/div/div/button'.
+
+2022-06-27 11:19:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Current View'])[1]/preceding::button[1]'.
+
+2022-06-27 11:19:47 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/gssprpra/git/KatalonStudioCodeRep1/Reports/Self-healing/Object Repository/Page_PIR/button_Export_neighbor.png
+
+2022-06-27 11:19:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_PIR/button_Export' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Current View'])[1]/preceding::button[1]'.
+
+2022-06-27 11:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/button_Export' is clicked on
+
+2022-06-27 11:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/a_Costed BOM Report")): Object: 'Object Repository/Page_PIR/a_Costed BOM Report' is clicked on
+
+2022-06-27 11:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/a_Costed BOM Report' is clicked on
+
+2022-06-27 11:19:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_PIR/Page_PIR_NBQ/Add to Compare_button")): Object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' is clickable
+
+2022-06-27 11:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' is clickable
+
+2022-06-27 11:19:51 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-06-27 11:19:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Test Cases/NBQ/QW Export Check" time="31.794" classname="Test Cases/All Test Cases/NBQ/QW Export Check" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:19:52 - [TEST_CASE][PASSED] - Test Cases/All Test Cases/NBQ/QW Export Check: Test Cases/All Test Cases/NBQ/QW Export Check
+
+2022-06-27 11:19:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:19:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:19:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:19:55 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:19:58 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:19:59 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:19:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:20:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:20:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:20:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:20:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_LoginPage_It-Right/span_New Business Quoting"), 0): Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:20:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_Export")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_Export")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_Export")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_All")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:20:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_PIR/Page_PIR_NBQ/Add to Compare_button")): Object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' is clickable
+
+2022-06-27 11:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PIR/Page_PIR_NBQ/Add to Compare_button' is clickable
+
+2022-06-27 11:20:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-27 11:20:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-27 11:20:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656309020949.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Test Cases/NBQ/QW Restore project" time="66.522" classname="Test Cases/All Test Cases/NBQ/QW Restore project" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16f0c77415dd0ac5e9446ba2d025ced
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-27 11:20:24 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Restore project: Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16f0c77415dd0ac5e9446ba2d025ced
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-27 11:20:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-27 11:20:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-27 11:20:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-27 11:20:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-27 11:20:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-27 11:20:27 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:20:30 - [MESSAGE][PASSED] - Navigate to 'https://priceitright.flextronics.com/login' successfully
+
+2022-06-27 11:20:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:20:31 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-06-27 11:20:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:20:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-06-27 11:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-06-27 11:20:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-27 11:20:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-27 11:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/Three line icon")): Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/Three line icon' is clicked on
+
+2022-06-27 11:20:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_LoginPage_It-Right/span_New Business Quoting"), 0): Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:20:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_LoginPage_It-Right/span_New Business Quoting' successfully
+
+2022-06-27 11:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting' is clicked on
+
+2022-06-27 11:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret' is clicked on
+
+2022-06-27 11:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Restore your last saved QW project' is clicked on
+
+2022-06-27 11:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/button_Export")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/button_Export' is clicked on
+
+2022-06-27 11:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PIR/Page_PIR_NBQ/a_All")): Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_NBQ/a_All' is clicked on
+
+2022-06-27 11:20:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-27 11:20:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-27 11:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Price It Right/button_Export")): Object: 'Object Repository/Page_Price It Right/button_Export' is clicked on
+
+2022-06-27 11:21:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='exports']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-27 11:21:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Price It Right/button_Export'. Try using Self-healing.
+
+2022-06-27 11:21:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Price It Right/button_Export' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::button[1]'.
+
+2022-06-27 11:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Export' is clicked on
+
+2022-06-27 11:21:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PIR/Page_PIR_NBQ/a_Costed BOM Report"), 0): Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' successfully
+
+2022-06-27 11:21:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-27 11:21:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' successfully
+
+2022-06-27 11:21:29 - [TEST_STEP][FAILED] - click(findTestObject("Page_PIR/Page_PIR_NBQ/a_Costed BOM Report")): Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16f0c77415dd0ac5e9446ba2d025ced
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1653467109699.run(Script1653467109699.groovy:52)
+	... 13 more
+)
+
+2022-06-27 11:21:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16f0c77415dd0ac5e9446ba2d025ced
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1653467109699.run(Script1653467109699.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220627_111149\\Sanity_NBQ\\20220627_111155\\1656309090402.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-27 11:20:24 - [TEST_CASE][FAILED] - Test Cases/All Test Cases/NBQ/QW Restore project: Test Cases/All Test Cases/NBQ/QW Restore project FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PIR/Page_PIR_NBQ/a_Costed BOM Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at QW Restore project.run(QW Restore project:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'GSSM6818', ip: '10.195.90.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\gssprpra\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16f0c77415dd0ac5e9446ba2d025ced
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-27 11:14:59 - [TEST_SUITE][FAILED] - Sanity_NBQ: Test Cases/All Test Cases/NBQ/NBQ Manual Load FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-06-27 11:14:59 - [TEST_SUITE][FAILED] - Sanity_NBQ: Test Cases/All Test Cases/NBQ/NBQ Manual Load FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'null' to object 'Object Repository/Page_PIR/Page_PIR_NBQ/UploadFile_PIR'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:4031)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$8.call(Unknown Source)
+	at NBQ Manual Load.run(NBQ Manual Load:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656308515182.run(TempTestSuite1656308515182.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

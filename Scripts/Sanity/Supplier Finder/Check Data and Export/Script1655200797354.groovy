@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page_It-Right Platform_SupplierFinder/Username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Page_It-Right Platform_SupplierFinder/Username'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Page_It-Right Platform_SupplierFinder/password'), GlobalVariable.pwd)
+WebUI.setEncryptedText(findTestObject('Page_It-Right Platform_SupplierFinder/password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Page_It-Right Platform_SupplierFinder/button_Sign in'))
 

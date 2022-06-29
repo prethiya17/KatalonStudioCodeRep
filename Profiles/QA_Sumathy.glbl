@@ -7,17 +7,17 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'gsstjaya'</initValue>
-      <name>username</name>
+      <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://pirqa.flex.com/login'</initValue>
+      <initValue>'https://priceitright.flextronics.com/login'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'xD57aNky8pP1NA1DriUY9g=='</initValue>
-      <name>pwd</name>
+      <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

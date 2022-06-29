@@ -15,6 +15,7 @@
       <guid>2409b7c2-180c-441d-acf0-49bd6d351ca0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All Test Cases/QIT/QIT Project Load</testCaseId>
+      <testCaseId>Test Cases/Sanity/QIT/QIT Project Load</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
