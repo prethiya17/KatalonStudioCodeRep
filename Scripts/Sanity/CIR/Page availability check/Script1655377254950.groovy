@@ -129,3 +129,5 @@ WebUI.click(findTestObject('Object Repository/Page_Collect It Right/span_Welcome
 
 WebUI.click(findTestObject('Object Repository/Page_Collect It Right/a_Logout'))
 
+WebUI.closeBrowser()
+
