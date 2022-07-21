@@ -16,7 +16,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/P8tNwhUmLp/rJtunF72BA=='</initValue>
+      <initValue>'ENRf7mI6H57FU8gMR5t/DA=='</initValue>
       <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Upload File Path</description>
+      <initValue>'C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\TestFiles\\PRICE_TYPE_TEST_COMMODITY_MANAGEMENT_108875-AGILENT-_20170831-1_Updated 2702.xlsx'</initValue>
+      <name>FileLocation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\TestFiles\\File for Dummy MPN.xlsx'</initValue>
+      <name>GBSAF_File</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'File for Dummy MPN'</initValue>
+      <name>GBSAF_FileName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\TestFiles\\REQ_SS_AF Check.xlsx'</initValue>
+      <name>REQAF_File</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

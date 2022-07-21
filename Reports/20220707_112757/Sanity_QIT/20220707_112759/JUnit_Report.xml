@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity_QIT" time="95.469" tests="1" failures="0" errors="0">
+   <testsuite name="Sanity_QIT" tests="1" failures="0" errors="0" time="95.469" skipped="0" timestamp="2022-07-07 11:28:19" hostname="gssprpra - GSSM6818.asia.ad.flextronics.com" id="Test Suites/Sanity_QIT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220707_112757\\Sanity_QIT\\20220707_112759"/>
+         <property name="logFiles" value="C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\Reports\\20220707_112757\\Sanity_QIT\\20220707_112759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gssprpra - GSSM6818.asia.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.66"/>
+         <property name="hostAddress" value="10.195.90.175"/>
+         <property name="sessionId" value="e7f83a2c31bb3faa4b57b1a2bd80a3b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/QIT/QIT Project Load" time="94.942" classname="Test Cases/Sanity/QIT/QIT Project Load" status="PASSED">
+         <system-out><![CDATA[2022-07-07 11:28:19 - [TEST_CASE][PASSED] - Test Cases/Sanity/QIT/QIT Project Load: Test Cases/Sanity/QIT/QIT Project Load
+
+2022-07-07 11:28:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-07 11:28:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-07 11:28:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-07 11:28:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-07 11:28:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-07-07 11:28:28 - [MESSAGE][PASSED] - Navigate to 'https://pirqa.flex.com/login' successfully
+
+2022-07-07 11:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LoginPage_It-Right/input_Sign in_username"), Username): Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-07-07 11:28:29 - [MESSAGE][PASSED] - Text 'gssprpra' is set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_username'
+
+2022-07-07 11:28:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_LoginPage_It-Right/input_Sign in_password"), Password): Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-07-07 11:28:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LoginPage_It-Right/input_Sign in_password'
+
+2022-07-07 11:28:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_LoginPage_It-Right/button_Sign in")): Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-07-07 11:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LoginPage_It-Right/button_Sign in' is clicked on
+
+2022-07-07 11:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_It-Right Platform/Three line-icon")): Object: 'Object Repository/Page_PIR/Page_It-Right Platform/Three line-icon' is clicked on
+
+2022-07-07 11:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_It-Right Platform/Three line-icon' is clicked on
+
+2022-07-07 11:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_PIR/Page_PIR_QIT/span_Quote Issue Tracker")): Object: 'Object Repository/Page_PIR/Page_PIR_QIT/span_Quote Issue Tracker' is clicked on
+
+2022-07-07 11:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PIR/Page_PIR_QIT/span_Quote Issue Tracker' is clicked on
+
+2022-07-07 11:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Price It Right/button_Retrieve QW Project")): Object: 'Object Repository/Page_Price It Right/button_Retrieve QW Project' is clicked on
+
+2022-07-07 11:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Retrieve QW Project' is clicked on
+
+2022-07-07 11:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Price It Right/input_Project_hide-input-line"), "corrected"): Text 'corrected' is set on object 'Object Repository/Page_Price It Right/input_Project_hide-input-line'
+
+2022-07-07 11:29:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//input[@type='text'])[31]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-07 11:29:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Price It Right/input_Project_hide-input-line'. Try using Self-healing.
+
+2022-07-07 11:29:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Price It Right/input_Project_hide-input-line' was broken. Propose an alternative one: '//div[@id='qit-table_wrapper']/div/div[3]/div/table/thead/tr[2]/td[2]/div/input'.
+
+2022-07-07 11:29:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//input[@type='text'])[31]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-07 11:29:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Price It Right/input_Project_hide-input-line'. Try using Self-healing.
+
+2022-07-07 11:29:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Price It Right/input_Project_hide-input-line' was broken. Propose an alternative one: '//div[@id='qit-table_wrapper']/div/div[3]/div/table/thead/tr[2]/td[2]/div/input'.
+
+2022-07-07 11:29:43 - [MESSAGE][PASSED] - Text 'corrected' is set on object 'Object Repository/Page_Price It Right/input_Project_hide-input-line'
+
+2022-07-07 11:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Price It Right/td_TEST_PIR_CORRECTED MPN TEST")): Object: 'Object Repository/Page_Price It Right/td_TEST_PIR_CORRECTED MPN TEST' is clicked on
+
+2022-07-07 11:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/td_TEST_PIR_CORRECTED MPN TEST' is clicked on
+
+2022-07-07 11:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Price It Right/button_Select")): Object: 'Object Repository/Page_Price It Right/button_Select' is clicked on
+
+2022-07-07 11:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Price It Right/button_Select' is clicked on
+
+2022-07-07 11:29:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-07 11:29:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-07 11:29:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Price It Right/button_Export")): Object 'Object Repository/Page_Price It Right/button_Export' is clickable
+
+2022-07-07 11:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Price It Right/button_Export' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-07 11:28:19 - [TEST_SUITE][PASSED] - Sanity_QIT: Test Cases/Sanity/QIT/QIT Project Load]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

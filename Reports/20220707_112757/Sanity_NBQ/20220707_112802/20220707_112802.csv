@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_NBQ,Chrome 103.0.5060.66,,,2022-07-07 11:30:18,2022-07-07 11:32:53,2m - 34.144s,FAILED
+,,,,,,,
+Test Cases/Sanity/NBQ/Enter MPN,Chrome 103.0.5060.66,,,2022-07-07 11:30:19,2022-07-07 11:31:10,50.792s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:30:20,2022-07-07 11:30:23,3.556s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:30:23,2022-07-07 11:30:23,0.289s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:30:23,2022-07-07 11:30:26,3.050s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:30:26,2022-07-07 11:30:28,1.084s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:30:28,2022-07-07 11:30:28,0.580s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:28,2022-07-07 11:30:31,3.088s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:31,2022-07-07 11:30:32,0.405s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:32,2022-07-07 11:30:36,3.962s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Enter MPNs""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:36,2022-07-07 11:30:36,0.697s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Price It Right/select_Select typeNew project quote  pre qu_b32c8e""), ""TEST_OR_TRAINING"", true)",Chrome 103.0.5060.66,,,2022-07-07 11:30:36,2022-07-07 11:30:38,1.891s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Apply""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:38,2022-07-07 11:30:39,0.486s,PASSED
+"setText(findTestObject(""Object Repository/Page_Price It Right/input_API Price Check_text""), ""DMG1012T|VZH220M1HTR0606K|LQH3NPN2R2MME|DMG1012T-7"")",Chrome 103.0.5060.66,,,2022-07-07 11:30:39,2022-07-07 11:30:43,4.584s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Run by MPN""))",Chrome 103.0.5060.66,,,2022-07-07 11:30:43,2022-07-07 11:30:57,13.709s,PASSED
+delay(3),Chrome 103.0.5060.66,,,2022-07-07 11:30:57,2022-07-07 11:31:00,3.061s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_NBQ/Export_button""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:00,2022-07-07 11:31:07,6.621s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_NBQ/a_All""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:07,2022-07-07 11:31:08,1.314s,PASSED
+"scrollToElement(findTestObject(""Page_PIR/Page_PIR_NBQ/Add to Compare_button""), 0)",Chrome 103.0.5060.66,,,2022-07-07 11:31:08,2022-07-07 11:31:09,0.983s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-07 11:31:09,2022-07-07 11:31:10,0.772s,PASSED
+,,,,,,,
+Test Cases/Sanity/NBQ/NBQ Manual Load,Chrome 103.0.5060.66,,,2022-07-07 11:31:10,2022-07-07 11:31:42,32.669s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:31:10,2022-07-07 11:31:12,1.398s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:31:12,2022-07-07 11:31:14,2.186s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:31:14,2022-07-07 11:31:15,0.787s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:31:15,2022-07-07 11:31:15,0.432s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:15,2022-07-07 11:31:17,2.429s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:31:17,2022-07-07 11:31:18,0.166s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:18,2022-07-07 11:31:18,0.416s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:18,2022-07-07 11:31:22,4.028s,PASSED
+"uploadFile(findTestObject(""Page_PIR/Page_PIR_NBQ/UploadFile_PIR""), FileLocation)",Chrome 103.0.5060.66,,,2022-07-07 11:31:22,2022-07-07 11:31:23,0.588s,PASSED
+delay(3),Chrome 103.0.5060.66,,,2022-07-07 11:31:23,2022-07-07 11:31:26,3.020s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Price It Right/select_Select typeNew project quote  pre qu_b32c8e""), ""TEST_OR_TRAINING"", true)",Chrome 103.0.5060.66,,,2022-07-07 11:31:26,2022-07-07 11:31:33,7.574s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Apply""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:33,2022-07-07 11:31:34,0.531s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Run""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:34,2022-07-07 11:31:36,2.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Run_run-caret""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:36,2022-07-07 11:31:37,0.567s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/button_Run_run-caret""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:37,2022-07-07 11:31:37,0.376s,PASSED
+"click(findTestObject(""Object Repository/Page_Price It Right/a_by CPN""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:37,2022-07-07 11:31:38,0.525s,PASSED
+"waitForElementVisible(findTestObject(""Page_Price It Right/Page_Price It Right/Chart Area Enabled""), 45)",Chrome 103.0.5060.66,,,2022-07-07 11:31:38,2022-07-07 11:31:38,0.571s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/Save_button""), 3)",Chrome 103.0.5060.66,,,2022-07-07 11:31:38,2022-07-07 11:31:42,3.517s,PASSED
+closeBrowser(),Chrome 103.0.5060.66,,,2022-07-07 11:31:42,2022-07-07 11:31:42,0.723s,PASSED
+,,,,,,,
+Test Cases/Sanity/NBQ/QW Restore project,Chrome 103.0.5060.66,,,2022-07-07 11:31:42,2022-07-07 11:31:57,15.084s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:31:43,2022-07-07 11:31:44,1.303s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:31:44,2022-07-07 11:31:47,2.461s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:31:47,2022-07-07 11:31:48,1.204s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:31:48,2022-07-07 11:31:48,0.444s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:48,2022-07-07 11:31:51,3.209s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:31:51,2022-07-07 11:31:52,0.139s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:52,2022-07-07 11:31:52,0.427s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 0)",Chrome 103.0.5060.66,,,2022-07-07 11:31:52,2022-07-07 11:31:53,0.740s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:53,2022-07-07 11:31:57,3.779s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret""))",Chrome 103.0.5060.66,,,2022-07-07 11:31:57,2022-07-07 11:31:57,0.894s,FAILED
+,,,,,,,
+Test Cases/Sanity/NBQ/QW Project Upload,Chrome 103.0.5060.66,,,2022-07-07 11:31:57,2022-07-07 11:32:20,22.584s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:31:59,2022-07-07 11:32:02,3.277s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:32:02,2022-07-07 11:32:04,2.046s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:32:04,2022-07-07 11:32:05,0.974s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:32:05,2022-07-07 11:32:06,0.466s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:06,2022-07-07 11:32:08,2.173s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:32:08,2022-07-07 11:32:08,0.180s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:08,2022-07-07 11:32:09,0.567s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 2)",Chrome 103.0.5060.66,,,2022-07-07 11:32:09,2022-07-07 11:32:09,0.628s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:09,2022-07-07 11:32:14,4.282s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_NBQ/button_QWProject""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:14,2022-07-07 11:32:15,1.264s,PASSED
+"setText(findTestObject(""Page_PIR/Page_PIR_NBQ/input_Restore previous parameters_search-qw-proj""), ""three"")",Chrome 103.0.5060.66,,,2022-07-07 11:32:15,2022-07-07 11:32:19,4.481s,PASSED
+"click(findTestObject(""Page_PIR/Page_PIR_NBQ/button_TEST_PIR_THREE PARTS WITH DNP""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:19,2022-07-07 11:32:20,0.733s,FAILED
+,,,,,,,
+Test Cases/Sanity/NBQ/QW Export Check,Chrome 103.0.5060.66,,,2022-07-07 11:32:20,2022-07-07 11:32:36,16.062s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:32:21,2022-07-07 11:32:23,2.263s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:32:23,2022-07-07 11:32:25,2.248s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:32:25,2022-07-07 11:32:26,0.867s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:32:26,2022-07-07 11:32:27,0.496s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:27,2022-07-07 11:32:29,2.488s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:32:29,2022-07-07 11:32:29,0.159s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:29,2022-07-07 11:32:30,0.460s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 0)",Chrome 103.0.5060.66,,,2022-07-07 11:32:30,2022-07-07 11:32:31,0.746s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:31,2022-07-07 11:32:35,4.109s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:35,2022-07-07 11:32:36,1.465s,FAILED
+,,,,,,,
+Test Cases/Sanity/NBQ/QW Restore project,Chrome 103.0.5060.66,,,2022-07-07 11:32:36,2022-07-07 11:32:53,16.477s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.66,,,2022-07-07 11:32:36,2022-07-07 11:32:38,2.263s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.66,,,2022-07-07 11:32:38,2022-07-07 11:32:41,2.237s,PASSED
+"setText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_username""), Username)",Chrome 103.0.5060.66,,,2022-07-07 11:32:41,2022-07-07 11:32:42,0.908s,PASSED
+"setEncryptedText(findTestObject(""Page_LoginPage_It-Right/input_Sign in_password""), Password)",Chrome 103.0.5060.66,,,2022-07-07 11:32:42,2022-07-07 11:32:42,0.588s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/button_Sign in""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:42,2022-07-07 11:32:45,2.667s,PASSED
+maximizeWindow(),Chrome 103.0.5060.66,,,2022-07-07 11:32:45,2022-07-07 11:32:45,0.224s,PASSED
+"click(findTestObject(""Page_LoginPage_It-Right/Three line icon""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:45,2022-07-07 11:32:46,0.485s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_LoginPage_It-Right/span_New Business Quoting""), 0)",Chrome 103.0.5060.66,,,2022-07-07 11:32:46,2022-07-07 11:32:46,0.678s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/span_New Business Quoting""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:46,2022-07-07 11:32:51,4.828s,PASSED
+"click(findTestObject(""Object Repository/Page_PIR/Page_PIR_NBQ/button_QWProject_qw-caret""))",Chrome 103.0.5060.66,,,2022-07-07 11:32:51,2022-07-07 11:32:53,1.582s,FAILED

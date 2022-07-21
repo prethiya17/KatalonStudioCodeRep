@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Price It Right/input_Project_hide-input-line",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[31]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027qit-table_wrapper\u0027]/div/div[3]/div/table/thead/tr[2]/td[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220707_112757/Sanity_QIT/20220707_112759/Object Repository/Page_Price It Right/input_Project_hide-input-line_idRelative.png"
+    }
+  ]
+}

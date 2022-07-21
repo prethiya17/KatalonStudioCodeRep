@@ -239,6 +239,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LoginPage_It-Right/Three line icon",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_LoginPage_It-Right/Three line icon_position.png"
     }
   ]
 }

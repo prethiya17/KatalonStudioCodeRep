@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Page_PIR/Page_PIR_NBQ/button_Select'))
 
 WebUI.delay(2)
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PIR/Page_PIR_NBQ/Volume_select_Ignore1'), '1', true)
+
 WebUI.click(findTestObject('Page_PIR/Page_PIR_NBQ/span_Run by CPN'))
 
 WebUI.delay(10)

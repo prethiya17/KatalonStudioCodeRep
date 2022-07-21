@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR3\\TestFiles\\File for Dummy MPN.xlsx'</initValue>
+      <initValue>'C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\TestFiles\\File for Dummy MPN.xlsx'</initValue>
       <name>GBSAF_File</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Sumathy\\Katalon Projects_Scripts\\PIR_DIR3\\TestFiles\\REQ_SS_AF Check.xlsx'</initValue>
+      <initValue>'C:\\Users\\gssprpra\\git\\KatalonStudioCodeRep1\\TestFiles\\REQ_SS_AF Check.xlsx'</initValue>
       <name>REQAF_File</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
