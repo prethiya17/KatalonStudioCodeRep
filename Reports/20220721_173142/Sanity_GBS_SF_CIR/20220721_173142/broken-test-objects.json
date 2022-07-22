@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "i.fa.fa-folder-open",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20220721_173142/Sanity_GBS_SF_CIR/20220721_173142/Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel",
+      "brokenLocator": "//tr[@id\u003d\u002750965\u0027]/td[17]/div/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "i.far.fa-file-excel",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20220721_173142/Sanity_GBS_SF_CIR/20220721_173142/Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel_CSS.png"
+    }
+  ]
+}

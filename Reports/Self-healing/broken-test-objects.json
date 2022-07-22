@@ -249,6 +249,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_LoginPage_It-Right/Three line icon_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open",
+      "brokenLocator": "//tr[@id\u003d\u00273835\u0027]/td[17]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "i.fa.fa-folder-open",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel",
+      "brokenLocator": "//tr[@id\u003d\u002750965\u0027]/td[17]/div/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "i.far.fa-file-excel",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/i_Project file-excel_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-1-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Technical Sourcing\u0027])[3]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/span_Flex_Organization_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DIR_GBS/GBS Project/span_Flex",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-1-1\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Technical Sourcing\u0027])[3]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DIR_GBS/GBS Project/span_Flex_neighbor.png"
     }
   ]
 }

@@ -1,0 +1,279 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity_GBS_SF_CIR,Chrome 103.0.5060.114,,,2022-07-21 17:40:28,2022-07-21 17:56:32,16m - 4.096s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/Create AF Project,Chrome 103.0.5060.114,Create AF Project,,2022-07-21 17:40:29,2022-07-21 17:41:18,49.561s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:40:30,2022-07-21 17:40:35,4.975s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:40:35,2022-07-21 17:40:35,0.257s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:40:35,2022-07-21 17:40:39,3.998s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:40:39,2022-07-21 17:40:40,1.203s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:40:40,2022-07-21 17:40:41,0.778s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:40:41,2022-07-21 17:40:45,3.532s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:40:45,2022-07-21 17:40:45,0.670s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:40:45,2022-07-21 17:40:46,0.635s,PASSED
+"scrollToElement(findTestObject(""Page_It-Right Platform_GBS/span_GBS""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:40:46,2022-07-21 17:40:47,0.692s,PASSED
+"waitForElementClickable(findTestObject(""Page_It-Right Platform_GBS/span_GBS""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:40:47,2022-07-21 17:40:47,0.877s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:40:47,2022-07-21 17:40:54,6.569s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:40:54,2022-07-21 17:40:56,2.087s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:40:56,2022-07-21 17:40:57,0.691s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/span_Flex_Organization""))",Chrome 103.0.5060.114,,,2022-07-21 17:40:57,2022-07-21 17:40:57,0.636s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS Project/select_Organization""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:40:57,2022-07-21 17:41:10,12.329s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:41:10,2022-07-21 17:41:12,2.014s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:41:12,2022-07-21 17:41:12,0.588s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Page_DIR_GBS/GBS Project/div_To Create Project   Drop GBS project""), GBSAF_File)",Chrome 103.0.5060.114,,,2022-07-21 17:41:12,2022-07-21 17:41:13,0.668s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/div_Choose Analysis Type""), 3)",Chrome 103.0.5060.114,,,2022-07-21 17:41:13,2022-07-21 17:41:14,0.763s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_OK""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:14,2022-07-21 17:41:15,0.804s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:41:15,2022-07-21 17:41:17,2.015s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/div_Create Project""), 3)",Chrome 103.0.5060.114,,,2022-07-21 17:41:17,2022-07-21 17:41:17,0.569s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/input__dueDate""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:17,2022-07-21 17:41:18,0.990s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/AF_Review_Verify,Chrome 103.0.5060.114,,,2022-07-21 17:41:18,2022-07-21 17:43:41,2m - 23.154s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:41:20,2022-07-21 17:41:23,3.128s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:41:23,2022-07-21 17:41:23,0.164s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:41:23,2022-07-21 17:41:27,3.512s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:41:27,2022-07-21 17:41:28,1.064s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:41:28,2022-07-21 17:41:28,0.677s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:28,2022-07-21 17:41:32,3.348s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:32,2022-07-21 17:41:32,0.602s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:41:32,2022-07-21 17:41:33,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:33,2022-07-21 17:41:38,5.078s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:41:38,2022-07-21 17:41:40,2.017s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:40,2022-07-21 17:41:40,0.563s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/span_Flex_Organization""))",Chrome 103.0.5060.114,,,2022-07-21 17:41:40,2022-07-21 17:42:14,33.130s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS Project/select_Organization""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:42:14,2022-07-21 17:42:21,7.757s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:42:21,2022-07-21 17:42:23,2.017s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:42:23,2022-07-21 17:42:55,31.821s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""))",Chrome 103.0.5060.114,,,2022-07-21 17:42:55,2022-07-21 17:43:28,32.396s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:43:28,2022-07-21 17:43:31,3.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:43:31,2022-07-21 17:43:31,0.678s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:43:31,2022-07-21 17:43:32,0.527s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:32,2022-07-21 17:43:32,0.656s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:32,2022-07-21 17:43:33,0.719s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:43:33,2022-07-21 17:43:36,3.020s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:43:36,2022-07-21 17:43:39,2.280s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:43:39,2022-07-21 17:43:39,0.520s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:39,2022-07-21 17:43:40,0.684s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:43:40,2022-07-21 17:43:40,0.601s,PASSED
+"setText(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category""), ""cer"")",Chrome 103.0.5060.114,,,2022-07-21 17:43:40,2022-07-21 17:43:41,1.012s,FAILED
+,,,,,,,
+Test Cases/Checklist/GBS/AF_Review_Save,Chrome 103.0.5060.114,,,2022-07-21 17:43:41,2022-07-21 17:45:31,1m - 49.663s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:43:43,2022-07-21 17:43:45,2.947s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:43:45,2022-07-21 17:43:46,0.215s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:43:46,2022-07-21 17:43:49,3.486s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:43:49,2022-07-21 17:43:50,1.170s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:43:50,2022-07-21 17:43:51,0.817s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:51,2022-07-21 17:43:55,3.643s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:55,2022-07-21 17:43:55,0.621s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:43:55,2022-07-21 17:43:56,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:43:56,2022-07-21 17:44:04,7.526s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:44:04,2022-07-21 17:44:06,2.016s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:44:06,2022-07-21 17:44:06,0.891s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/span_Flex_Organization""))",Chrome 103.0.5060.114,,,2022-07-21 17:44:06,2022-07-21 17:44:07,0.536s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS Project/select_Organization""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:44:07,2022-07-21 17:44:14,6.798s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:44:14,2022-07-21 17:44:16,2.013s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:44:16,2022-07-21 17:44:47,31.523s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""))",Chrome 103.0.5060.114,,,2022-07-21 17:44:47,2022-07-21 17:45:19,31.777s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:45:19,2022-07-21 17:45:22,3.010s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:45:22,2022-07-21 17:45:23,0.646s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:45:23,2022-07-21 17:45:23,0.530s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:23,2022-07-21 17:45:24,0.634s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:24,2022-07-21 17:45:25,0.599s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:45:25,2022-07-21 17:45:28,3.021s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:45:28,2022-07-21 17:45:28,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:45:28,2022-07-21 17:45:29,0.478s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/button_Select product category""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:29,2022-07-21 17:45:29,0.662s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/div_Select product category""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:45:29,2022-07-21 17:45:30,0.532s,PASSED
+"setText(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/input_Select product category""), ""cer"")",Chrome 103.0.5060.114,,,2022-07-21 17:45:30,2022-07-21 17:45:31,1.247s,FAILED
+,,,,,,,
+Test Cases/Checklist/GBS/AF_Review_RevertSave,Chrome 103.0.5060.114,,,2022-07-21 17:45:31,2022-07-21 17:47:16,1m - 45.273s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:45:32,2022-07-21 17:45:36,3.661s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:45:36,2022-07-21 17:45:36,0.238s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:45:36,2022-07-21 17:45:39,3.035s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:45:39,2022-07-21 17:45:40,0.956s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:45:40,2022-07-21 17:45:40,0.615s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:40,2022-07-21 17:45:44,3.313s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:44,2022-07-21 17:45:44,0.574s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:45:44,2022-07-21 17:45:45,0.708s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:45,2022-07-21 17:45:50,4.856s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:45:50,2022-07-21 17:45:52,2.016s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:52,2022-07-21 17:45:53,0.638s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/span_Flex_Organization""))",Chrome 103.0.5060.114,,,2022-07-21 17:45:53,2022-07-21 17:45:53,0.755s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS Project/select_Organization""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:45:53,2022-07-21 17:45:59,5.892s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:45:59,2022-07-21 17:46:01,2.010s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:46:01,2022-07-21 17:46:33,31.909s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/i_Project-folder-open""))",Chrome 103.0.5060.114,,,2022-07-21 17:46:33,2022-07-21 17:47:05,32.011s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:47:05,2022-07-21 17:47:08,3.013s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:47:08,2022-07-21 17:47:09,0.516s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:47:09,2022-07-21 17:47:09,0.495s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/i_MPNoptionsMain""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:09,2022-07-21 17:47:10,0.743s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Review""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:10,2022-07-21 17:47:10,0.553s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:47:10,2022-07-21 17:47:13,3.011s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/h3_Parts Review""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:47:13,2022-07-21 17:47:15,1.164s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_ReviewPage/span_PIR-TEST-0005""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:47:15,2022-07-21 17:47:15,0.587s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_MPNoptionsReview""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:15,2022-07-21 17:47:16,1.137s,FAILED
+,,,,,,,
+Test Cases/Sanity/GBS/AF_Export_Dashboard,Chrome 103.0.5060.114,AF_Export,,2022-07-21 17:47:16,2022-07-21 17:49:54,2m - 37.587s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:47:18,2022-07-21 17:47:21,3.634s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:47:21,2022-07-21 17:47:22,0.304s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:47:22,2022-07-21 17:47:24,2.869s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:47:24,2022-07-21 17:47:25,1.015s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:47:25,2022-07-21 17:47:26,0.802s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:26,2022-07-21 17:47:29,3.202s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:29,2022-07-21 17:47:30,0.484s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:47:30,2022-07-21 17:47:31,0.671s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:31,2022-07-21 17:47:36,4.900s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:36,2022-07-21 17:47:37,1.706s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/span_Flex""))",Chrome 103.0.5060.114,,,2022-07-21 17:47:37,2022-07-21 17:48:10,32.332s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:48:10,2022-07-21 17:48:16,6.561s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:48:16,2022-07-21 17:48:18,2.011s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS Project/i_Project file-excel""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:48:18,2022-07-21 17:48:50,31.802s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/i_Project file-excel""))",Chrome 103.0.5060.114,,,2022-07-21 17:48:50,2022-07-21 17:49:22,31.674s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/ul_ExportOptions""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:49:22,2022-07-21 17:49:54,32.265s,FAILED
+,,,,,,,
+Test Cases/Checklist/GBS/AF_Export_Mainpage,Chrome 103.0.5060.114,AF_Export,,2022-07-21 17:49:54,2022-07-21 17:51:06,1m - 12.445s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:49:55,2022-07-21 17:49:58,3.307s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:49:58,2022-07-21 17:49:58,0.204s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:49:58,2022-07-21 17:50:01,2.804s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:50:01,2022-07-21 17:50:02,1.113s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:50:02,2022-07-21 17:50:03,0.889s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:03,2022-07-21 17:50:07,3.539s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:07,2022-07-21 17:50:07,0.632s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:50:07,2022-07-21 17:50:08,0.619s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_GBS""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:08,2022-07-21 17:50:13,5.071s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/div_Technical Sourcing""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:13,2022-07-21 17:50:15,1.729s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/span_Flex""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:15,2022-07-21 17:50:16,0.780s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/select_Technical Sourcing                Flex""), ""FLEX"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:50:16,2022-07-21 17:50:21,5.576s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:50:21,2022-07-21 17:50:23,2.014s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/i_Project-folder-open""))",Chrome 103.0.5060.114,,,2022-07-21 17:50:23,2022-07-21 17:50:55,32.230s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:50:55,2022-07-21 17:50:57,2.021s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:50:57,2022-07-21 17:50:58,1.014s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:50:58,2022-07-21 17:50:59,0.702s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:50:59,2022-07-21 17:51:00,0.549s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/button_Export""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:00,2022-07-21 17:51:00,0.723s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/ul_Export Options_Project""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:51:00,2022-07-21 17:51:01,0.673s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Both_Project""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:01,2022-07-21 17:51:03,1.468s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_PIR-TEST-0005""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:51:03,2022-07-21 17:51:04,1.380s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/a_Back to Projects""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:51:04,2022-07-21 17:51:04,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/a_Welcome Thangasumathy Jayakumar""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:04,2022-07-21 17:51:05,0.877s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/a_Logout""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:05,2022-07-21 17:51:06,1.023s,PASSED
+,,,,,,,
+Test Cases/Sanity/GBS Request/Create AF Request,Chrome 103.0.5060.114,Create AF Request,,2022-07-21 17:51:06,2022-07-21 17:54:02,2m - 55.306s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:51:08,2022-07-21 17:51:12,3.325s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:51:12,2022-07-21 17:51:12,0.345s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:51:12,2022-07-21 17:51:14,2.196s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_GBS/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:51:14,2022-07-21 17:51:15,1.015s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_GBS/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:51:15,2022-07-21 17:51:16,0.786s,PASSED
+"click(findTestObject(""Page_It-Right Platform_GBS/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:16,2022-07-21 17:51:20,3.913s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_GBS/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:20,2022-07-21 17:51:20,0.548s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_GBS/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:51:20,2022-07-21 17:51:21,0.705s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS_Request/span_GBS Project Request""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:21,2022-07-21 17:51:25,3.679s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_To Create Request""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:51:25,2022-07-21 17:51:26,1.466s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Page_DIR_GBS/GBS_Request/div_To Create Request""), REQAF_File)",Chrome 103.0.5060.114,,,2022-07-21 17:51:26,2022-07-21 17:51:27,0.636s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:51:27,2022-07-21 17:51:29,2.018s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_Choose Analysis Type_Request""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:51:29,2022-07-21 17:51:29,0.603s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/button_OK_Request""))",Chrome 103.0.5060.114,,,2022-07-21 17:51:29,2022-07-21 17:52:01,32.027s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_Project Request Details""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:52:01,2022-07-21 17:52:28,26.074s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/button_Please select site""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:28,2022-07-21 17:52:28,0.841s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/span_012 - PCBA KALLANG, SINGAPORE (012)""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:28,2022-07-21 17:52:29,0.689s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/button_Customer""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:29,2022-07-21 17:52:30,0.927s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/span_3M COMPANY""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:30,2022-07-21 17:52:31,0.857s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/input__dueDateRequest""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:31,2022-07-21 17:52:32,0.817s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-21 17:52:32,2022-07-21 17:52:35,3.007s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/span_MonthRequest""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:35,2022-07-21 17:52:36,0.851s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS_Request/div_DecemberRequest""), 2, STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-21 17:52:36,2022-07-21 17:52:36,0.771s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/div_DecemberRequest""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:36,2022-07-21 17:52:37,0.786s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:52:37,2022-07-21 17:52:39,2.018s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/span_YearRequest""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:39,2022-07-21 17:52:40,0.821s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:52:40,2022-07-21 17:52:42,2.013s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS_Request/div_Year2024Request""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:52:42,2022-07-21 17:52:43,0.654s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/div_Year2024Request""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:43,2022-07-21 17:52:43,0.811s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:52:43,2022-07-21 17:52:45,2.016s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/div_Date31Request""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:45,2022-07-21 17:52:46,0.919s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-21 17:52:46,2022-07-21 17:52:48,2.022s,PASSED
+"setText(findTestObject(""Page_DIR_GBS/GBS_Request/textarea_Comments_Request""), ""Please Ignore. Test file created by DIR support team for testing purpose"")",Chrome 103.0.5060.114,,,2022-07-21 17:52:48,2022-07-21 17:52:50,1.665s,PASSED
+"scrollToElement(findTestObject(""Page_DIR_GBS/GBS_Request/select_RequestType""), 2, STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-21 17:52:50,2022-07-21 17:52:51,0.645s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS_Request/select_RequestType""), ""GBS"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:52:51,2022-07-21 17:52:53,1.813s,PASSED
+"selectOptionByValue(findTestObject(""Page_DIR_GBS/GBS_Request/select_Application""), ""MILITARY"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:52:53,2022-07-21 17:52:54,1.732s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS_Request/button_CreateRequest""))",Chrome 103.0.5060.114,,,2022-07-21 17:52:54,2022-07-21 17:52:55,0.859s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_SuccessProject Request""), 4)",Chrome 103.0.5060.114,,,2022-07-21 17:52:55,2022-07-21 17:53:26,30.412s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_GBS/GBS Project/button_OK""))",Chrome 103.0.5060.114,,,2022-07-21 17:53:26,2022-07-21 17:53:58,32.073s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_AFSelfServiceAlert""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:53:58,2022-07-21 17:53:58,0.841s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_AFSelfServiceEmail""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:53:58,2022-07-21 17:53:59,0.541s,PASSED
+"verifyElementPresent(findTestObject(""Page_DIR_GBS/GBS_Request/div_To Create Request""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:53:59,2022-07-21 17:53:59,0.515s,PASSED
+"click(findTestObject(""Page_DIR_GBS/GBS Project/Alternate Finder/AF_Mainpage/span_Welcome Thangasumathy Jayakumar""))",Chrome 103.0.5060.114,,,2022-07-21 17:53:59,2022-07-21 17:54:00,0.682s,PASSED
+"click(findTestObject(""Page_DIR_GBS/a_Logout""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:00,2022-07-21 17:54:02,1.550s,PASSED
+,,,,,,,
+Test Cases/Sanity/Supplier Finder/Check Data and Export,Chrome 103.0.5060.114,,,2022-07-21 17:54:02,2022-07-21 17:54:40,38.320s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:54:03,2022-07-21 17:54:06,2.955s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:54:06,2022-07-21 17:54:07,0.191s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:54:07,2022-07-21 17:54:09,2.848s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_SupplierFinder/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:54:09,2022-07-21 17:54:11,1.125s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_SupplierFinder/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:54:11,2022-07-21 17:54:11,0.606s,PASSED
+"click(findTestObject(""Page_It-Right Platform_SupplierFinder/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:11,2022-07-21 17:54:15,3.370s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:15,2022-07-21 17:54:15,0.488s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/div_WelcomeMenu""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:54:15,2022-07-21 17:54:16,0.700s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/span_Supplier Finder""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:16,2022-07-21 17:54:25,9.625s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_Supplier Finder""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:54:25,2022-07-21 17:54:33,7.754s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_datatable_header""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:54:33,2022-07-21 17:54:34,0.452s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_DIR_SupplierFinder/td_SupplierName""), ""5D INDUSTRIA"")",Chrome 103.0.5060.114,,,2022-07-21 17:54:34,2022-07-21 17:54:34,0.599s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/button_Export""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:54:34,2022-07-21 17:54:35,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_SupplierFinder/button_Export""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:35,2022-07-21 17:54:36,1.646s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_Supplier Finder""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:54:36,2022-07-21 17:54:37,0.902s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_SupplierFinder/span_Welcome Thangasumathy Jayakumar""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:37,2022-07-21 17:54:38,0.880s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_SupplierFinder/a_Logout""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:38,2022-07-21 17:54:39,0.994s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-21 17:54:39,2022-07-21 17:54:40,0.911s,PASSED
+,,,,,,,
+Test Cases/Sanity/Supplier Finder/Apply Filter,Chrome 103.0.5060.114,,,2022-07-21 17:54:40,2022-07-21 17:55:15,35.017s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:54:41,2022-07-21 17:54:43,2.098s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:54:43,2022-07-21 17:54:43,0.298s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:54:43,2022-07-21 17:54:46,2.747s,PASSED
+"setText(findTestObject(""Page_It-Right Platform_SupplierFinder/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:54:46,2022-07-21 17:54:47,1.070s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform_SupplierFinder/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:54:47,2022-07-21 17:54:48,0.847s,PASSED
+"click(findTestObject(""Page_It-Right Platform_SupplierFinder/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:48,2022-07-21 17:54:51,3.105s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:51,2022-07-21 17:54:52,0.550s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/div_WelcomeMenu""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:54:52,2022-07-21 17:54:52,0.643s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform_SupplierFinder/span_Supplier Finder""))",Chrome 103.0.5060.114,,,2022-07-21 17:54:52,2022-07-21 17:54:58,5.550s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_Supplier Finder""), 2)",Chrome 103.0.5060.114,,,2022-07-21 17:54:58,2022-07-21 17:55:02,4.499s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_datatable_header""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:55:02,2022-07-21 17:55:03,0.648s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/button_VPGroup""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:55:03,2022-07-21 17:55:04,0.705s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DIR_SupplierFinder/select_VPGroupDropdown""), ""MEMORY STORAGE PRODUCT GROUP"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:55:04,2022-07-21 17:55:05,1.906s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_datatable_header""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:55:05,2022-07-21 17:55:06,0.654s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/button_SupplierType""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:55:06,2022-07-21 17:55:07,0.685s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DIR_SupplierFinder/select_SupplierTypeDropdown""), ""DISTRIBUTOR"", true)",Chrome 103.0.5060.114,,,2022-07-21 17:55:07,2022-07-21 17:55:09,1.751s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_DIR_SupplierFinder/div_datatable_header""), 1)",Chrome 103.0.5060.114,,,2022-07-21 17:55:09,2022-07-21 17:55:11,2.106s,PASSED
+"verifyElementText(findTestObject(""Page_DIR_SupplierFinder/td_VPGroupValue""), ""MEMORY STORAGE PRODUCT GROUP"")",Chrome 103.0.5060.114,,,2022-07-21 17:55:11,2022-07-21 17:55:11,0.508s,PASSED
+"verifyElementText(findTestObject(""Page_DIR_SupplierFinder/td_SupplierTypeValue""), ""DISTRIBUTOR"")",Chrome 103.0.5060.114,,,2022-07-21 17:55:11,2022-07-21 17:55:12,0.531s,PASSED
+"verifyElementText(findTestObject(""Page_DIR_SupplierFinder/td_Level1DescValue""), ""DISTRIBUTOR"")",Chrome 103.0.5060.114,,,2022-07-21 17:55:12,2022-07-21 17:55:12,0.714s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_SupplierFinder/span_Welcome Thangasumathy Jayakumar""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:12,2022-07-21 17:55:13,0.855s,PASSED
+"click(findTestObject(""Object Repository/Page_DIR_SupplierFinder/a_Logout""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:13,2022-07-21 17:55:14,0.938s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-21 17:55:14,2022-07-21 17:55:15,0.883s,PASSED
+,,,,,,,
+Test Cases/Sanity/CIR/Page availability check,Chrome 103.0.5060.114,,,2022-07-21 17:55:15,2022-07-21 17:56:32,1m - 17.024s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-21 17:55:16,2022-07-21 17:55:18,2.480s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-21 17:55:18,2022-07-21 17:55:19,0.225s,PASSED
+navigateToUrl(URL),Chrome 103.0.5060.114,,,2022-07-21 17:55:19,2022-07-21 17:55:21,2.721s,PASSED
+"setText(findTestObject(""Page_It-Right Platform/Username""), Username)",Chrome 103.0.5060.114,,,2022-07-21 17:55:21,2022-07-21 17:55:22,1.042s,PASSED
+"setEncryptedText(findTestObject(""Page_It-Right Platform/password""), Password)",Chrome 103.0.5060.114,,,2022-07-21 17:55:22,2022-07-21 17:55:23,0.702s,PASSED
+"click(findTestObject(""Page_It-Right Platform/button_Sign in""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:23,2022-07-21 17:55:26,3.238s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_WelcomeToggler""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:26,2022-07-21 17:55:27,0.756s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/div_WelcomeMenu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:27,2022-07-21 17:55:28,0.792s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_It-Right Platform/span_Collect It Right""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:28,2022-07-21 17:55:28,0.546s,PASSED
+"click(findTestObject(""Object Repository/Page_It-Right Platform/span_Collect It Right""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:28,2022-07-21 17:55:38,9.435s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Collect It Right/div_Welcome to CIR""), ""Welcome to CIR!"")",Chrome 103.0.5060.114,,,2022-07-21 17:55:38,2022-07-21 17:55:38,0.530s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Projects_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:38,2022-07-21 17:55:39,0.518s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Preliminary Bom_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:39,2022-07-21 17:55:39,0.553s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Design Centers_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:39,2022-07-21 17:55:40,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Master File_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:40,2022-07-21 17:55:41,0.619s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Contracts_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:41,2022-07-21 17:55:41,0.682s,PASSED
+"verifyElementPresent(findTestObject(""Page_Collect It Right/a_DWA Annex_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:41,2022-07-21 17:55:42,0.525s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Market Intelligence_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:42,2022-07-21 17:55:42,0.640s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Admin_Menu""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:42,2022-07-21 17:55:43,0.529s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_Admin_Menu""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:43,2022-07-21 17:55:44,0.956s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Users""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:55:44,2022-07-21 17:55:44,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_Projects_Menu""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:44,2022-07-21 17:55:45,0.923s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_All Projects_TabName""), 3)",Chrome 103.0.5060.114,,,2022-07-21 17:55:45,2022-07-21 17:55:47,1.729s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_CIR_MenuOptions""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:47,2022-07-21 17:55:48,0.779s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_Preliminary Bom_Menu""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:48,2022-07-21 17:55:49,0.766s,PASSED
+"verifyElementPresent(findTestObject(""Page_Collect It Right/a_Preliminary BOM_TabName""), 3)",Chrome 103.0.5060.114,,,2022-07-21 17:55:49,2022-07-21 17:55:59,10.279s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_CIR_MenuOptions""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:59,2022-07-21 17:55:59,0.472s,PASSED
+"click(findTestObject(""Object Repository/Page_Collect It Right/a_Design Centers_Menu""))",Chrome 103.0.5060.114,,,2022-07-21 17:55:59,2022-07-21 17:56:00,0.576s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Collect It Right/a_Design Centers_TabName""), 0)",Chrome 103.0.5060.114,,,2022-07-21 17:56:00,2022-07-21 17:56:32,32.226s,FAILED
